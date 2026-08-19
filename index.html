@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>sunbinbin1991 · GitHub 项目汇总</title>
+<meta name="description" content="Binbin sun (sunbinbin1991) 的 GitHub 开源项目汇总与最新动态 — 计算机视觉 / 深度学习 / C++ / Python">
+<style>
+  :root {
+    --bg: #0b0f17;
+    --bg-soft: #0f1522;
+    --card: #141c2c;
+    --card-hover: #182238;
+    --border: #223052;
+    --border-soft: #1b2740;
+    --text: #e6edf7;
+    --text-dim: #93a3bd;
+    --text-faint: #64748f;
+    --accent: #6366f1;
+    --accent2: #22d3ee;
+    --gold: #fbbf24;
+    --danger: #f87171;
+    --green: #34d399;
+    --radius: 14px;
+    --font: "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background:
+      radial-gradient(1000px 500px at 85% -10%, rgba(99,102,241,.18), transparent 60%),
+      radial-gradient(800px 400px at -10% 20%, rgba(34,211,238,.10), transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+  a { color: inherit; text-decoration: none; }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 22px; }
+
+  /* ---------- nav ---------- */
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    backdrop-filter: blur(12px);
+    background: rgba(11,15,23,.72);
+    border-bottom: 1px solid var(--border-soft);
+  }
+  nav .wrap { display: flex; align-items: center; gap: 18px; height: 60px; }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; letter-spacing: .3px; }
+  .brand .dot { width: 10px; height: 10px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--accent2)); box-shadow: 0 0 12px rgba(99,102,241,.8); }
+  nav .links { margin-left: auto; display: flex; gap: 6px; align-items: center; }
+  nav .links a {
+    padding: 7px 14px; border-radius: 9px; font-size: 13.5px; color: var(--text-dim);
+    transition: .18s; border: 1px solid transparent;
+  }
+  nav .links a:hover { color: var(--text); background: rgba(255,255,255,.05); border-color: var(--border-soft); }
+  .btn-github {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: linear-gradient(135deg, var(--accent), #4f46e5);
+    color: #fff !important; padding: 7px 16px !important; border-radius: 9px !important;
+    font-weight: 600; box-shadow: 0 4px 18px rgba(99,102,241,.35);
+  }
+  .btn-github:hover { filter: brightness(1.12); }
+
+  /* ---------- hero ---------- */
+  header.hero { padding: 64px 0 26px; }
+  .hero-grid { display: flex; gap: 34px; align-items: center; flex-wrap: wrap; }
+  .avatar-wrap { position: relative; flex: 0 0 auto; }
+  .avatar {
+    width: 148px; height: 148px; border-radius: 28px; object-fit: cover;
+    border: 3px solid rgba(99,102,241,.55);
+    box-shadow: 0 18px 50px rgba(0,0,0,.45), 0 0 0 8px rgba(99,102,241,.08);
+  }
+  .avatar-ring {
+    position: absolute; inset: -14px; border-radius: 36px;
+    background: conic-gradient(from 0deg, var(--accent), var(--accent2), var(--accent));
+    opacity: .25; filter: blur(16px); z-index: -1;
+  }
+  .hero-info { flex: 1 1 380px; min-width: 280px; }
+  .hero-info h1 { font-size: 34px; font-weight: 800; letter-spacing: .5px; }
+  .hero-info h1 .handle { color: var(--text-dim); font-weight: 600; font-size: 20px; }
+  .hero-bio { margin-top: 8px; color: var(--text-dim); font-size: 15.5px; max-width: 560px; }
+  .hero-meta { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13.5px; color: var(--text-faint); }
+  .hero-meta span { display: inline-flex; align-items: center; gap: 6px; }
+  .hero-actions { margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 10px 20px;
+    border-radius: 10px; font-weight: 600; font-size: 14px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    transition: .18s; font-family: var(--font);
+  }
+  .btn:hover { border-color: var(--accent); transform: translateY(-1px); box-shadow: 0 8px 22px rgba(0,0,0,.3); }
+  .btn:disabled { opacity: .5; cursor: wait; transform: none; }
+
+  /* ---------- stats ---------- */
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin: 34px 0 8px; }
+  .stat {
+    background: linear-gradient(180deg, var(--card), var(--bg-soft));
+    border: 1px solid var(--border-soft); border-radius: var(--radius);
+    padding: 18px 20px;
+  }
+  .stat .num { font-size: 27px; font-weight: 800; background: linear-gradient(135deg, var(--accent2), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .stat .label { font-size: 12.5px; color: var(--text-faint); margin-top: 2px; letter-spacing: .5px; }
+
+  /* ---------- sections ---------- */
+  section { margin: 44px 0; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
+  .sec-head h2 { font-size: 21px; font-weight: 750; }
+  .sec-head .sub { color: var(--text-faint); font-size: 13px; }
+  .sec-head .rule { flex: 1; height: 1px; background: linear-gradient(90deg, var(--border), transparent); }
+  .live-badge {
+    font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 999px;
+    background: rgba(34,211,238,.12); color: var(--accent2); border: 1px solid rgba(34,211,238,.35);
+    animation: pulse 2.2s ease-in-out infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .55; } }
+
+  /* ---------- activity ---------- */
+  .activity {
+    background: linear-gradient(160deg, rgba(34,211,238,.06), transparent 40%), var(--card);
+    border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 24px;
+  }
+  .activity ul { list-style: none; }
+  .activity li {
+    display: flex; align-items: center; gap: 12px; padding: 9px 0;
+    border-bottom: 1px dashed var(--border-soft); flex-wrap: wrap;
+  }
+  .activity li:last-child { border-bottom: none; }
+  .ev-icon { width: 30px; height: 30px; flex: 0 0 auto; display: grid; place-items: center; font-size: 15px; background: var(--bg-soft); border: 1px solid var(--border-soft); border-radius: 9px; }
+  .ev-text { font-size: 14px; flex: 1 1 240px; min-width: 0; }
+  .ev-repo { font-size: 12px; color: var(--accent2); background: rgba(99,102,241,.12); border: 1px solid rgba(99,102,241,.3); padding: 2px 9px; border-radius: 999px; }
+  .ev-repo:hover { background: rgba(99,102,241,.25); }
+  .ev-time { font-size: 12px; color: var(--text-faint); }
+
+  /* ---------- featured ---------- */
+  .featured { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; }
+  .fcard {
+    position: relative; display: flex; flex-direction: column; gap: 10px;
+    background: linear-gradient(160deg, rgba(99,102,241,.08), transparent 45%), var(--card);
+    border: 1px solid var(--border); border-radius: var(--radius); padding: 20px;
+    transition: .2s;
+  }
+  .fcard:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 14px 34px rgba(0,0,0,.35); }
+  .fcard .rank { position: absolute; top: 14px; right: 16px; font-size: 26px; font-weight: 800; color: rgba(255,255,255,.07); }
+  .fcard h3 { font-size: 16.5px; font-weight: 700; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .fcard h3 a:hover { color: var(--accent2); }
+  .fcard .desc { color: var(--text-dim); font-size: 13.5px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .fcard .meta { display: flex; align-items: center; gap: 14px; font-size: 12.5px; color: var(--text-faint); margin-top: auto; }
+
+  /* ---------- filter bar ---------- */
+  .toolbar {
+    display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+    background: var(--bg-soft); border: 1px solid var(--border-soft);
+    border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px;
+  }
+  .search { flex: 1 1 220px; position: relative; }
+  .search input {
+    width: 100%; padding: 10px 14px 10px 38px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--card); color: var(--text);
+    font-size: 14px; outline: none; transition: .18s; font-family: var(--font);
+  }
+  .search input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(99,102,241,.18); }
+  .search svg { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); opacity: .5; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+  .seg button {
+    padding: 9px 16px; background: var(--card); color: var(--text-dim);
+    border: none; cursor: pointer; font-size: 13.5px; font-weight: 600;
+    border-right: 1px solid var(--border-soft); transition: .15s; font-family: var(--font);
+  }
+  .seg button:last-child { border-right: none; }
+  .seg button.active { background: linear-gradient(135deg, var(--accent), #4f46e5); color: #fff; }
+  .seg button:not(.active):hover { color: var(--text); background: var(--card-hover); }
+  .sort select, .refresh-btn {
+    padding: 9px 12px; border-radius: 10px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); font-size: 13.5px; cursor: pointer;
+    outline: none; font-family: var(--font);
+  }
+  .refresh-btn { display: inline-flex; align-items: center; gap: 7px; font-weight: 600; transition: .15s; }
+  .refresh-btn:hover { border-color: var(--accent2); color: var(--accent2); }
+  .refresh-btn:disabled { opacity: .5; cursor: wait; }
+  .refresh-btn .spin { display: none; }
+  .refresh-btn.spinning .spin { display: inline-block; animation: rotate 1s linear infinite; }
+  @keyframes rotate { to { transform: rotate(360deg); } }
+  .status-line { margin-bottom: 12px; font-size: 12.5px; color: var(--text-faint); display: flex; align-items: center; gap: 8px; }
+  .status-line .ok { color: var(--green); }
+  .status-line .warn { color: var(--gold); }
+  .lang-chips { display: flex; flex-wrap: wrap; gap: 8px; width: 100%; padding-top: 4px; }
+  .chip {
+    padding: 5px 12px; border-radius: 999px; font-size: 12.5px; cursor: pointer;
+    border: 1px solid var(--border); color: var(--text-dim); background: var(--card);
+    transition: .15s; font-family: var(--font);
+  }
+  .chip:hover { color: var(--text); border-color: var(--text-faint); }
+  .chip.active { background: rgba(99,102,241,.18); border-color: var(--accent); color: var(--accent2); }
+
+  /* ---------- repo grid ---------- */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 16px; }
+  .card {
+    display: flex; flex-direction: column; gap: 10px;
+    background: var(--card); border: 1px solid var(--border-soft);
+    border-radius: var(--radius); padding: 18px 20px; transition: .2s;
+  }
+  .card:hover { transform: translateY(-3px); border-color: var(--accent); box-shadow: 0 14px 34px rgba(0,0,0,.32); }
+  .card .top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .card h3 { font-size: 16px; font-weight: 700; word-break: break-all; }
+  .card h3 a:hover { color: var(--accent2); }
+  .lang-dot { width: 11px; height: 11px; border-radius: 50%; flex: 0 0 auto; }
+  .badge {
+    font-size: 11px; font-weight: 700; padding: 2.5px 9px; border-radius: 999px;
+    letter-spacing: .4px;
+  }
+  .badge.orig { background: rgba(52,211,153,.14); color: var(--green); border: 1px solid rgba(52,211,153,.35); }
+  .badge.fork { background: rgba(148,163,184,.12); color: var(--text-dim); border: 1px solid rgba(148,163,184,.28); }
+  .badge.profile { background: rgba(251,191,36,.13); color: var(--gold); border: 1px solid rgba(251,191,36,.35); }
+  .badge.archived { background: rgba(248,113,113,.12); color: var(--danger); border: 1px solid rgba(248,113,113,.32); }
+  .card .desc {
+    color: var(--text-dim); font-size: 13.5px; min-height: 20px;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card .tags { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 11.5px; color: var(--text-faint); background: rgba(148,163,184,.08); border: 1px solid var(--border-soft); padding: 2.5px 9px; border-radius: 999px; }
+  .card .foot {
+    margin-top: auto; display: flex; align-items: center; gap: 14px;
+    font-size: 12.5px; color: var(--text-faint); padding-top: 8px;
+    border-top: 1px dashed var(--border-soft);
+  }
+  .card .foot .star { color: var(--gold); font-weight: 700; }
+  .card .foot a:hover { color: var(--accent2); }
+  .foot .spacer { flex: 1; }
+
+  .empty { text-align: center; color: var(--text-faint); padding: 60px 0; font-size: 14.5px; }
+  .result-count { color: var(--text-faint); font-size: 13px; margin-bottom: 14px; }
+
+  /* ---------- footer ---------- */
+  footer { border-top: 1px solid var(--border-soft); margin-top: 60px; padding: 30px 0 40px; color: var(--text-faint); font-size: 13px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+  footer a:hover { color: var(--accent2); }
+
+  @media (max-width: 640px) {
+    .hero-grid { justify-content: center; text-align: center; }
+    .hero-actions { justify-content: center; }
+    .hero-meta { justify-content: center; }
+    header.hero { padding: 44px 0 10px; }
+    .hero-info h1 { font-size: 27px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand"><span class="dot"></span>sunbinbin1991 <span style="color:var(--text-faint);font-weight:500">项目集</span></div>
+    <div class="links">
+      <a href="#activity">最新动态</a>
+      <a href="#featured">精选项目</a>
+      <a href="#repos">全部仓库</a>
+      <a class="btn-github" href="https://github.com/sunbinbin1991" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div class="avatar-wrap">
+      <span class="avatar-ring"></span>
+      <img id="avatar" class="avatar" alt="avatar" src="">
+    </div>
+    <div class="hero-info">
+      <h1 id="heroName">…</h1>
+      <p id="heroBio" class="hero-bio"></p>
+      <div id="heroMeta" class="hero-meta"></div>
+      <div class="hero-actions">
+        <a class="btn" href="https://github.com/sunbinbin1991?tab=repositories" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.25.25 0 0 1-.4-.2Z"/></svg>
+          查看全部仓库
+        </a>
+        <a class="btn" href="https://github.com/sunbinbin1991?tab=followers" target="_blank" rel="noopener">关注者</a>
+        <a class="btn" href="https://github.com/sunbinbin1991?tab=following" target="_blank" rel="noopener">正在关注</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="statsRow" class="stats"></div>
+
+  <section id="activity">
+    <div class="sec-head">
+      <h2>⚡ 最新动态</h2>
+      <span class="live-badge">LIVE</span>
+      <span class="sub">来自 GitHub 公开活动流，实时拉取</span>
+      <span class="rule"></span>
+    </div>
+    <div class="activity">
+      <div id="activityList"><div class="empty">加载中…</div></div>
+    </div>
+  </section>
+
+  <section id="featured">
+    <div class="sec-head">
+      <h2>⭐ 精选原创项目</h2>
+      <span class="sub">按 Star 数排序的原创作品</span>
+      <span class="rule"></span>
+    </div>
+    <div id="featuredGrid" class="featured"></div>
+  </section>
+
+  <section id="repos">
+    <div class="sec-head">
+      <h2>🗂 全部仓库</h2>
+      <span id="totalLabel" class="sub"></span>
+      <span class="rule"></span>
+    </div>
+
+    <div class="toolbar">
+      <div class="search">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="5"/><path d="m11 11 3.5 3.5"/></svg>
+        <input id="searchInput" type="text" placeholder="搜索仓库名 / 描述 / 标签…">
+      </div>
+      <div class="seg" id="typeSeg">
+        <button data-type="all" class="active">全部</button>
+        <button data-type="orig">原创</button>
+        <button data-type="fork">Fork 收藏</button>
+      </div>
+      <div class="sort">
+        <select id="sortSelect">
+          <option value="featured">默认推荐</option>
+          <option value="stars">Star 最多</option>
+          <option value="updated">最近更新</option>
+          <option value="name">名称 A-Z</option>
+          <option value="newest">最近创建</option>
+        </select>
+      </div>
+      <button id="refreshBtn" class="refresh-btn" title="从 GitHub 拉取最新数据">
+        <span class="spin">⟳</span> 刷新数据
+      </button>
+      <div id="langChips" class="lang-chips"></div>
+    </div>
+
+    <div id="statusLine" class="status-line"></div>
+    <div id="resultCount" class="result-count"></div>
+    <div id="repoGrid" class="grid"></div>
+    <div id="empty" class="empty" style="display:none">没有符合条件的项目，换个关键词试试吧 🐟</div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>由 <a href="https://github.com/sunbinbin1991" target="_blank" rel="noopener">sunbinbin1991</a> 的 GitHub 公开数据生成 · 快照更新于 <span id="genDate"></span> · 支持实时刷新</span>
+    <span><a href="#featured">返回顶部 ↑</a></span>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  "use strict";
+  var D = window.PORTFOLIO_DATA;
+  var U = D.user, S = D.stats;
+  var LIVE_TTL = 10 * 60 * 1000; // 10 min cache
+
+  var LANG_COLORS = {
+    "C": "#555555", "C++": "#f34b7d", "Python": "#3572A5", "C#": "#178600",
+    "CSS": "#563d7c", "JavaScript": "#f1e05a", "Java": "#b07219",
+    "TypeScript": "#3178c6", "Matlab": "#e16737", "HTML": "#e34c26",
+    "Makefile": "#427819", "Jupyter Notebook": "#DA5B0B", "Rust": "#dea584",
+    "Go": "#00ADD8", "Shell": "#89e051", "Objective-C": "#438eff"
+  };
+  var EVENT_ICONS = {
+    PushEvent: "📦", CreateEvent: "➕", DeleteEvent: "🗑️", ForkEvent: "🍴",
+    WatchEvent: "⭐", ReleaseEvent: "🏷️", PullRequestEvent: "🔀",
+    IssuesEvent: "🐛", IssueCommentEvent: "💬", PublicEvent: "🎉", GollumEvent: "📖"
+  };
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+  }
+  function langColor(lang) { return LANG_COLORS[lang] || "#8b949e"; }
+  function fmtDate(iso) {
+    if (!iso) return "";
+    var d = new Date(iso);
+    return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0");
+  }
+  function relTime(iso) {
+    var diff = (Date.now() - new Date(iso).getTime()) / 86400000;
+    if (diff < 1) return "今天";
+    if (diff < 30) return Math.floor(diff) + " 天前";
+    if (diff < 365) return Math.floor(diff / 30) + " 个月前";
+    return Math.floor(diff / 365) + " 年前";
+  }
+
+  // ---------- render helpers ----------
+  function renderHero() {
+    document.getElementById("avatar").src = U.avatar_url;
+    document.title = U.login + " · GitHub 项目汇总";
+    document.getElementById("heroName").innerHTML =
+      esc(U.name) + ' <span class="handle">@' + esc(U.login) + "</span>";
+    document.getElementById("heroBio").textContent =
+      U.bio || "Stay foolish, stay hungry.";
+    var meta = [];
+    if (U.location) meta.push("📍 " + esc(U.location));
+    meta.push("🎂 " + U.joined_year + " 年加入 GitHub");
+    if (U.company) meta.push("🏢 " + esc(U.company));
+    if (U.blog) meta.push("🌐 <a href=\"" + esc(U.blog) + "\" target=\"_blank\" rel=\"noopener\">" + esc(U.blog) + "</a>");
+    document.getElementById("heroMeta").innerHTML = meta.join("");
+  }
+
+  function renderStats() {
+    var stats = [
+      ["仓库总数", S.total],
+      ["原创项目", S.original],
+      ["Fork 收藏", S.forks],
+      ["累计 Stars", S.total_stars],
+      ["关注者", U.followers],
+      ["正在关注", U.following]
+    ];
+    document.getElementById("statsRow").innerHTML = stats.map(function (s) {
+      return '<div class="stat"><div class="num">' + s[1] + '</div><div class="label">' + s[0] + "</div></div>";
+    }).join("");
+  }
+
+  function cardHTML(r, featured, rank) {
+    var badges = "";
+    if (r.is_profile) badges += '<span class="badge profile">个人主页</span>';
+    if (r.fork) badges += '<span class="badge fork">Fork</span>';
+    else badges += '<span class="badge orig">原创</span>';
+    if (r.archived) badges += '<span class="badge archived">已归档</span>';
+
+    var home = r.homepage ? '<a href="' + esc(r.homepage) + '" target="_blank" rel="noopener" title="项目主页">🌐</a>' : "";
+    var tags = r.topics.slice(0, 4).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
+
+    var cls = featured ? "fcard" : "card";
+    var head = featured
+      ? '<h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.name) + "</a>" + badges + "</h3>"
+      : '<div class="top"><span class="lang-dot" style="background:' + langColor(r.language) + '"></span><h3><a href="' + esc(r.html_url) + '" target="_blank" rel="noopener">' + esc(r.name) + "</a></h3>" + badges + "</div>";
+
+    var langLine = r.language
+      ? '<span><span class="lang-dot" style="background:' + langColor(r.language) + ';display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px"></span>' + esc(r.language) + "</span>"
+      : "";
+
+    return '<div class="' + cls + '">' +
+      (rank ? '<span class="rank">#' + rank + "</span>" : "") +
+      head +
+      '<p class="desc">' + (r.description ? esc(r.description) : '<i style="opacity:.5">（暂无描述）</i>') + "</p>" +
+      (tags ? '<div class="tags">' + tags + "</div>" : "") +
+      '<div class="' + (featured ? "meta" : "foot") + '">' +
+      langLine +
+      '<span class="star">★ ' + r.stars + "</span>" +
+      '<span>⑂ ' + r.forks + "</span>" +
+      '<span class="spacer"></span>' +
+      home +
+      '<span title="最近更新">' + fmtDate(r.updated_at) + "</span>" +
+      "</div></div>";
+  }
+
+  function renderFeatured() {
+    var feat = S.top_original;
+    document.getElementById("featuredGrid").innerHTML = feat.map(function (r, i) {
+      return cardHTML(r, true, i + 1);
+    }).join("") || '<div class="empty">暂无数据</div>';
+  }
+
+  function renderActivity() {
+    var evs = D.events || [];
+    if (!evs.length) {
+      document.getElementById("activityList").innerHTML = '<div class="empty">暂无公开动态</div>';
+      return;
+    }
+    document.getElementById("activityList").innerHTML = '<ul>' + evs.slice(0, 20).map(function (ev) {
+      var icon = EVENT_ICONS[ev.type] || "⚡";
+      return '<li>' +
+        '<span class="ev-icon">' + icon + "</span>" +
+        '<span class="ev-text">' + esc(ev.text) + "</span>" +
+        '<a class="ev-repo" href="' + esc(ev.repo_url) + '" target="_blank" rel="noopener">' + esc(ev.repo) + "</a>" +
+        '<span class="ev-time">' + relTime(ev.created_at) + "</span>" +
+        "</li>";
+    }).join("") + "</ul>";
+  }
+
+  // ---------- filters ----------
+  var state = { type: "all", lang: "all", q: "", sort: "featured" };
+
+  function renderLangChips() {
+    var langs = Object.keys(S.languages).sort(function (a, b) { return S.languages[b] - S.languages[a]; });
+    var chipHTML = '<span class="chip active" data-lang="all">全部语言</span>' +
+      langs.map(function (l) {
+        return '<span class="chip" data-lang="' + esc(l) + '">' + esc(l) +
+          ' <span style="opacity:.6">' + S.languages[l] + "</span></span>";
+      }).join("");
+    document.getElementById("langChips").innerHTML = chipHTML;
+  }
+
+  function applyFilters(list) {
+    var out = list.filter(function (r) {
+      if (state.type === "orig" && r.fork) return false;
+      if (state.type === "fork" && !r.fork) return false;
+      if (state.lang !== "all" && r.language !== state.lang) return false;
+      if (state.q) {
+        var hay = (r.name + " " + (r.description || "") + " " + (r.topics || []).join(" ")).toLowerCase();
+        if (hay.indexOf(state.q) === -1) return false;
+      }
+      return true;
+    });
+    out.sort(function (a, b) {
+      switch (state.sort) {
+        case "stars": return b.stars - a.stars;
+        case "updated": return new Date(b.updated_at) - new Date(a.updated_at);
+        case "newest": return new Date(b.created_at) - new Date(a.created_at);
+        case "name": return a.name.localeCompare(b.name);
+        default:
+          if (a.fork !== b.fork) return a.fork ? 1 : -1;
+          return b.stars - a.stars || new Date(b.updated_at) - new Date(a.updated_at);
+      }
+    });
+    return out;
+  }
+
+  function renderRepos() {
+    var list = applyFilters(D.repos);
+    document.getElementById("resultCount").textContent =
+      "显示 " + list.length + " / " + D.repos.length + " 个项目";
+    document.getElementById("repoGrid").innerHTML = list.map(function (r) { return cardHTML(r, false); }).join("");
+    document.getElementById("empty").style.display = list.length ? "none" : "block";
+  }
+
+  function renderAll() {
+    renderHero();
+    renderStats();
+    renderFeatured();
+    renderActivity();
+    renderLangChips();
+    renderRepos();
+  }
+
+  // ---------- live data ----------
+  function setStatus(msg, cls) {
+    var el = document.getElementById("statusLine");
+    el.innerHTML = '<span class="' + (cls || "ok") + '">' + esc(msg) + "</span>";
+  }
+
+  function fetchJSON(url) {
+    return fetch(url, { headers: { Accept: "application/vnd.github+json" } })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.json();
+      });
+  }
+
+  function cleanRepos(raw) {
+    return raw.map(function (r) {
+      return {
+        name: r.name,
+        description: (r.description || "").trim(),
+        html_url: r.html_url,
+        homepage: r.homepage || "",
+        language: r.language || "",
+        stars: r.stargazers_count,
+        forks: r.forks_count,
+        topics: r.topics || [],
+        created_at: r.created_at,
+        updated_at: r.updated_at,
+        fork: !!r.fork,
+        archived: !!r.archived,
+        is_profile: r.name === U.login
+      };
+    });
+  }
+
+  function mapEvents(raw) {
+    return (raw || []).map(function (e) {
+      var t = e.type || "";
+      var repo = (e.repo && e.repo.name) || "";
+      var p = e.payload || {};
+      var item = { type: t, repo: repo, repo_url: "https://github.com/" + repo, created_at: e.created_at || "" };
+      if (t === "PushEvent") {
+        var n = (p.commits || []).length;
+        var ref = (p.ref || "").replace("refs/heads/", "");
+        item.text = "推送 " + n + " 个提交到 " + repo + " @ " + ref;
+      } else if (t === "CreateEvent") item.text = "创建了 " + p.ref_type + ": " + repo;
+      else if (t === "DeleteEvent") item.text = "删除了 " + p.ref_type + ": " + repo;
+      else if (t === "ForkEvent") item.text = "Fork 了 " + repo;
+      else if (t === "WatchEvent") item.text = "Star 了 " + repo;
+      else if (t === "ReleaseEvent") item.text = "发布了 Release: " + repo;
+      else if (t === "PullRequestEvent") item.text = (p.action || "") + " 了 PR: " + repo;
+      else if (t === "IssuesEvent") item.text = (p.action || "") + " 了 Issue: " + repo;
+      else if (t === "IssueCommentEvent") item.text = "评论了 Issue: " + repo;
+      else if (t === "PublicEvent") item.text = "开源了新项目: " + repo;
+      else if (t === "GollumEvent") item.text = "更新了 Wiki: " + repo;
+      else item.text = t + ": " + repo;
+      return item;
+    }).filter(function (i) { return i.repo; });
+  }
+
+  function applyLive(live, fromCache) {
+    // live = { user, repos, events } in raw API shape
+    var ru = live.user;
+    U.name = ru.name || U.name;
+    U.bio = ru.bio || U.bio;
+    U.location = ru.location || U.location;
+    U.company = ru.company || U.company;
+    U.blog = ru.blog || U.blog;
+    U.followers = ru.followers;
+    U.following = ru.following;
+    U.public_repos = ru.public_repos;
+    U.avatar_url = ru.avatar_url;
+
+    var repos = cleanRepos(live.repos || []);
+    if (repos.length) D.repos = repos;
+    var originals = repos.filter(function (r) { return !r.fork; });
+    var langMap = {};
+    repos.forEach(function (r) { if (r.language) langMap[r.language] = (langMap[r.language] || 0) + 1; });
+    S.total = repos.length;
+    S.original = originals.length;
+    S.forks = repos.length - originals.length;
+    S.total_stars = repos.reduce(function (a, r) { return a + r.stars; }, 0);
+    S.total_forks = repos.reduce(function (a, r) { return a + r.forks; }, 0);
+    S.languages = langMap;
+    S.top_original = originals.sort(function (a, b) { return b.stars - a.stars; }).slice(0, 6);
+
+    var evs = mapEvents(live.events);
+    if (evs.length) D.events = evs;
+
+    renderAll();
+  }
+
+  function refreshLive() {
+    var btn = document.getElementById("refreshBtn");
+    if (btn) { btn.disabled = true; btn.classList.add("spinning"); }
+    setStatus("正在从 GitHub 拉取最新数据…", "ok");
+    var base = "https://api.github.com/users/" + U.login;
+    Promise.all([
+      fetchJSON(base),
+      fetchJSON(base + "/repos?per_page=100&sort=updated&type=all"),
+      fetchJSON(base + "/events/public?per_page=30")
+    ]).then(function (res) {
+      applyLive({ user: res[0], repos: res[1], events: res[2] }, false);
+      try {
+        localStorage.setItem("portfolio_live_" + U.login, JSON.stringify({ ts: Date.now(), data: res }));
+      } catch (e) {}
+      setStatus("✓ 已更新：数据来自 GitHub API 实时拉取", "ok");
+    }).catch(function () {
+      setStatus("⚠ 实时拉取失败（可能触发 GitHub 限流），当前展示快照数据，稍后可重试", "warn");
+    }).finally(function () {
+      if (btn) { btn.disabled = false; btn.classList.remove("spinning"); }
+    });
+  }
+
+  function initLive() {
+    try {
+      var raw = localStorage.getItem("portfolio_live_" + U.login);
+      if (raw) {
+        var obj = JSON.parse(raw);
+        if (obj && obj.data && Date.now() - obj.ts < LIVE_TTL) {
+          applyLive(obj.data, true);
+          setStatus("✓ 数据来自本地缓存（" + Math.round((Date.now() - obj.ts) / 60000) + " 分钟前实时拉取）", "ok");
+          return;
+        }
+      }
+    } catch (e) {}
+    refreshLive();
+  }
+
+  // ---------- boot ----------
+  document.getElementById("genDate").textContent = D.generated_at ? D.generated_at.slice(0, 16).replace("T", " ") : "—";
+  document.getElementById("totalLabel").textContent = "共 " + D.repos.length + " 个公开仓库，点击卡片进入仓库页面";
+
+  document.getElementById("langChips").addEventListener("click", function (e) {
+    var chip = e.target.closest(".chip");
+    if (!chip) return;
+    state.lang = chip.dataset.lang;
+    document.querySelectorAll("#langChips .chip").forEach(function (c) { c.classList.toggle("active", c === chip); });
+    renderRepos();
+  });
+  document.getElementById("typeSeg").addEventListener("click", function (e) {
+    var btn = e.target.closest("button");
+    if (!btn) return;
+    state.type = btn.dataset.type;
+    document.querySelectorAll("#typeSeg button").forEach(function (b) { b.classList.toggle("active", b === btn); });
+    renderRepos();
+  });
+  document.getElementById("searchInput").addEventListener("input", function (e) {
+    state.q = e.target.value.trim().toLowerCase();
+    renderRepos();
+  });
+  document.getElementById("sortSelect").addEventListener("change", function (e) {
+    state.sort = e.target.value;
+    renderRepos();
+  });
+  document.getElementById("refreshBtn").addEventListener("click", refreshLive);
+
+  renderAll();
+  initLive();
+  setInterval(function () {
+    try {
+      var raw = localStorage.getItem("portfolio_live_" + U.login);
+      if (!raw || Date.now() - JSON.parse(raw).ts >= LIVE_TTL) refreshLive();
+    } catch (e) {}
+  }, LIVE_TTL);
+})();
+</script>
+</body>
+</html>
