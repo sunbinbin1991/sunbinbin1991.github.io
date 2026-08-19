@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-19T09:01:19Z",
+ "generated_at": "2026-08-19T09:17:07Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -9,15 +9,15 @@ window.PORTFOLIO_DATA = {
   "blog": "",
   "followers": 36,
   "following": 202,
-  "public_repos": 65,
+  "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
   "joined_year": 2015,
   "avatar_url": "https://avatars.githubusercontent.com/u/15342883?v=4",
   "html_url": "https://github.com/sunbinbin1991"
  },
  "stats": {
-  "total": 65,
-  "original": 20,
+  "total": 66,
+  "original": 21,
   "forks": 45,
   "total_stars": 30,
   "total_forks": 9,
@@ -25,6 +25,7 @@ window.PORTFOLIO_DATA = {
    "C++": 15,
    "Python": 7,
    "C#": 3,
+   "HTML": 2,
    "CSS": 2,
    "JavaScript": 2,
    "Java": 2,
@@ -32,7 +33,6 @@ window.PORTFOLIO_DATA = {
    "Matlab": 1,
    "C": 1,
    "Makefile": 1,
-   "HTML": 1,
    "Jupyter Notebook": 1
   },
   "top_original": [
@@ -201,6 +201,21 @@ window.PORTFOLIO_DATA = {
   }
  ],
  "repos": [
+  {
+   "name": "sunbinbin1991.github.io",
+   "description": "sunbinbin1991 的 GitHub 项目汇总网站（自动部署）",
+   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "homepage": "",
+   "language": "HTML",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "created_at": "2026-08-19T09:12:37Z",
+   "updated_at": "2026-08-19T09:14:50Z",
+   "fork": false,
+   "archived": false,
+   "is_profile": false
+  },
   {
    "name": "deepseek-harness",
    "description": "DeepSeek Harness: Everything is a Plugin.",
