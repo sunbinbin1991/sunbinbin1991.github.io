@@ -1,12 +1,12 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-19T09:17:07Z",
+ "generated_at": "2026-08-19T13:09:57Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
   "bio": "Stay foolish stay hungry ",
   "company": "",
   "location": "Hangzhou,China,Mars",
-  "blog": "",
+  "blog": "https://sunbinbin1991.github.io/ ",
   "followers": 36,
   "following": 202,
   "public_repos": 66,
@@ -24,15 +24,15 @@ window.PORTFOLIO_DATA = {
   "languages": {
    "C++": 15,
    "Python": 7,
+   "JavaScript": 3,
    "C#": 3,
-   "HTML": 2,
    "CSS": 2,
-   "JavaScript": 2,
    "Java": 2,
    "TypeScript": 1,
    "Matlab": 1,
    "C": 1,
    "Makefile": 1,
+   "HTML": 1,
    "Jupyter Notebook": 1
   },
   "top_original": [
@@ -130,6 +130,62 @@ window.PORTFOLIO_DATA = {
  },
  "events": [
   {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:15:41Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:15:17Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "repo_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+   "created_at": "2026-08-19T10:00:48Z",
+   "text": "Star 了 awesome-dsh-plugin/awesome-dsh-plugin"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:15:29Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:14:43Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "CreateEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:12:38Z",
+   "text": "创建了 branch: sunbinbin1991/sunbinbin1991.github.io"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:16:05Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-19T09:15:53Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
    "type": "WatchEvent",
    "repo": "alxndrTL/little-book-rl",
    "repo_url": "https://github.com/alxndrTL/little-book-rl",
@@ -206,12 +262,12 @@ window.PORTFOLIO_DATA = {
    "description": "sunbinbin1991 的 GitHub 项目汇总网站（自动部署）",
    "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "homepage": "",
-   "language": "HTML",
+   "language": "JavaScript",
    "stars": 0,
    "forks": 0,
    "topics": [],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-19T09:14:50Z",
+   "updated_at": "2026-08-19T09:17:59Z",
    "fork": false,
    "archived": false,
    "is_profile": false
