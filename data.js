@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-20T07:07:16Z",
+ "generated_at": "2026-08-20T13:12:06Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -279,6 +279,21 @@ window.PORTFOLIO_DATA = {
  ],
  "repos": [
   {
+   "name": "sunbinbin1991.github.io",
+   "description": "sunbinbin1991 的 GitHub 项目汇总网站（自动部署）",
+   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "topics": [],
+   "created_at": "2026-08-19T09:12:37Z",
+   "updated_at": "2026-08-20T07:09:15Z",
+   "fork": false,
+   "archived": false,
+   "is_profile": false
+  },
+  {
    "name": "deepseek-harness",
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/sunbinbin1991/deepseek-harness",
@@ -307,21 +322,6 @@ window.PORTFOLIO_DATA = {
    "fork": false,
    "archived": false,
    "is_profile": true
-  },
-  {
-   "name": "sunbinbin1991.github.io",
-   "description": "sunbinbin1991 的 GitHub 项目汇总网站（自动部署）",
-   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 1,
-   "forks": 0,
-   "topics": [],
-   "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-20T03:29:08Z",
-   "fork": false,
-   "archived": false,
-   "is_profile": false
   },
   {
    "name": "wechat-radar",
