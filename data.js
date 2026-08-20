@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-20T01:52:29Z",
+ "generated_at": "2026-08-20T07:07:16Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -19,16 +19,16 @@ window.PORTFOLIO_DATA = {
   "total": 66,
   "original": 21,
   "forks": 45,
-  "total_stars": 30,
+  "total_stars": 31,
   "total_forks": 9,
   "languages": {
    "C++": 15,
    "Python": 7,
    "JavaScript": 3,
    "C#": 3,
+   "TypeScript": 2,
    "CSS": 2,
    "Java": 2,
-   "TypeScript": 1,
    "Matlab": 1,
    "C": 1,
    "Makefile": 1,
@@ -129,6 +129,27 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/deepseek-harness",
+   "repo_url": "https://github.com/sunbinbin1991/deepseek-harness",
+   "created_at": "2026-08-20T05:48:14Z",
+   "text": "推送 0 个提交到 sunbinbin1991/deepseek-harness @ master"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991",
+   "created_at": "2026-08-20T03:37:32Z",
+   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991 @ main"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-20T03:29:07Z",
+   "text": "Star 了 sunbinbin1991/sunbinbin1991.github.io"
+  },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
@@ -258,32 +279,47 @@ window.PORTFOLIO_DATA = {
  ],
  "repos": [
   {
+   "name": "deepseek-harness",
+   "description": "DeepSeek Harness: Everything is a Plugin.",
+   "html_url": "https://github.com/sunbinbin1991/deepseek-harness",
+   "homepage": "https://deepseek.com/harness",
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "created_at": "2026-08-19T00:36:24Z",
+   "updated_at": "2026-08-20T05:51:28Z",
+   "fork": true,
+   "archived": false,
+   "is_profile": false
+  },
+  {
+   "name": "sunbinbin1991",
+   "description": "",
+   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991",
+   "homepage": "",
+   "language": "",
+   "stars": 0,
+   "forks": 0,
+   "topics": [],
+   "created_at": "2022-05-23T15:21:20Z",
+   "updated_at": "2026-08-20T03:37:40Z",
+   "fork": false,
+   "archived": false,
+   "is_profile": true
+  },
+  {
    "name": "sunbinbin1991.github.io",
    "description": "sunbinbin1991 的 GitHub 项目汇总网站（自动部署）",
    "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "homepage": "",
    "language": "JavaScript",
-   "stars": 0,
+   "stars": 1,
    "forks": 0,
    "topics": [],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-19T18:57:08Z",
+   "updated_at": "2026-08-20T03:29:08Z",
    "fork": false,
-   "archived": false,
-   "is_profile": false
-  },
-  {
-   "name": "deepseek-harness",
-   "description": "DeepSeek Harness: Everything is a Plugin.",
-   "html_url": "https://github.com/sunbinbin1991/deepseek-harness",
-   "homepage": "https://deepseek.com/harness",
-   "language": "",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "created_at": "2026-08-19T00:36:24Z",
-   "updated_at": "2026-08-19T00:36:24Z",
-   "fork": true,
    "archived": false,
    "is_profile": false
   },
@@ -481,21 +517,6 @@ window.PORTFOLIO_DATA = {
    "fork": false,
    "archived": false,
    "is_profile": false
-  },
-  {
-   "name": "sunbinbin1991",
-   "description": "",
-   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991",
-   "homepage": "",
-   "language": "",
-   "stars": 0,
-   "forks": 0,
-   "topics": [],
-   "created_at": "2022-05-23T15:21:20Z",
-   "updated_at": "2022-05-23T15:21:20Z",
-   "fork": false,
-   "archived": false,
-   "is_profile": true
   },
   {
    "name": "birthday",
