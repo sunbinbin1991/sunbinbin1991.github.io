@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-21T08:44:37Z",
+ "generated_at": "2026-08-21T09:03:28Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -7,7 +7,7 @@ window.PORTFOLIO_DATA = {
   "company": "",
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
-  "followers": 36,
+  "followers": 37,
   "following": 203,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
@@ -312,6 +312,278 @@ window.PORTFOLIO_DATA = {
    "text": "Star 了 milesial/Pytorch-UNet"
   }
  ],
+ "starred": [
+  {
+   "name": "awesome-dsh-plugins",
+   "owner": "AdamPlatin123",
+   "full_name": "AdamPlatin123/awesome-dsh-plugins",
+   "description": "DSH 插件雷达与精选榜：多路自动发现 9000+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
+   "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
+   "language": "Python",
+   "stars": 1302
+  },
+  {
+   "name": "dshfind",
+   "owner": "hikariming",
+   "full_name": "hikariming/dshfind",
+   "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
+   "html_url": "https://github.com/hikariming/dshfind",
+   "language": "TypeScript",
+   "stars": 196
+  },
+  {
+   "name": "sunbinbin1991.github.io",
+   "owner": "sunbinbin1991",
+   "full_name": "sunbinbin1991/sunbinbin1991.github.io",
+   "description": "Auto-generated GitHub portfolio site · Pages + Actions + API 自动生成个人 GitHub 项目汇总页（定时刷新 · 实时拉取 · 限流回退）",
+   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "language": "JavaScript",
+   "stars": 1
+  },
+  {
+   "name": "awesome-dsh-plugin",
+   "owner": "awesome-dsh-plugin",
+   "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
+   "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+   "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+   "language": "Python",
+   "stars": 10924
+  },
+  {
+   "name": "little-book-rl",
+   "owner": "alxndrTL",
+   "full_name": "alxndrTL/little-book-rl",
+   "description": "The Little Book of Reinforcement Learning",
+   "html_url": "https://github.com/alxndrTL/little-book-rl",
+   "language": "Python",
+   "stars": 1536
+  },
+  {
+   "name": "archify",
+   "owner": "tt-a1i",
+   "full_name": "tt-a1i/archify",
+   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+   "html_url": "https://github.com/tt-a1i/archify",
+   "language": "HTML",
+   "stars": 14852
+  },
+  {
+   "name": "awesome-zhuiju-free",
+   "owner": "laoma2053",
+   "full_name": "laoma2053/awesome-zhuiju-free",
+   "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+   "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
+   "language": "JavaScript",
+   "stars": 6056
+  },
+  {
+   "name": "deepseek-harness",
+   "owner": "deepseek-ai",
+   "full_name": "deepseek-ai/deepseek-harness",
+   "description": "DeepSeek Harness: Everything is a Plugin.",
+   "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+   "language": "TypeScript",
+   "stars": 177745
+  },
+  {
+   "name": "HD-Loss",
+   "owner": "lisaGUZZI",
+   "full_name": "lisaGUZZI/HD-Loss",
+   "description": "",
+   "html_url": "https://github.com/lisaGUZZI/HD-Loss",
+   "language": "Python",
+   "stars": 3
+  },
+  {
+   "name": "UNetPlusPlus",
+   "owner": "MrGiovanni",
+   "full_name": "MrGiovanni/UNetPlusPlus",
+   "description": "[IEEE TMI Best Paper Award] Official Implementation for UNet++",
+   "html_url": "https://github.com/MrGiovanni/UNetPlusPlus",
+   "language": "Python",
+   "stars": 2679
+  },
+  {
+   "name": "boundary-loss",
+   "owner": "LIVIAETS",
+   "full_name": "LIVIAETS/boundary-loss",
+   "description": "Official code for \"Boundary loss for highly unbalanced segmentation\", runner-up for best paper award at MIDL 2019. Extended version in MedIA, volume 67, January 2021.",
+   "html_url": "https://github.com/LIVIAETS/boundary-loss",
+   "language": "Python",
+   "stars": 732
+  },
+  {
+   "name": "DiffOPC",
+   "owner": "NVlabs",
+   "full_name": "NVlabs/DiffOPC",
+   "description": "Differentiable Edge-Based OPC",
+   "html_url": "https://github.com/NVlabs/DiffOPC",
+   "language": "Python",
+   "stars": 8
+  },
+  {
+   "name": "Pytorch-UNet",
+   "owner": "milesial",
+   "full_name": "milesial/Pytorch-UNet",
+   "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
+   "html_url": "https://github.com/milesial/Pytorch-UNet",
+   "language": "Python",
+   "stars": 11602
+  },
+  {
+   "name": "FasterNet",
+   "owner": "JierunChen",
+   "full_name": "JierunChen/FasterNet",
+   "description": "[CVPR 2023] Code for PConv and FasterNet",
+   "html_url": "https://github.com/JierunChen/FasterNet",
+   "language": "Python",
+   "stars": 836
+  },
+  {
+   "name": "Qwen3-Coder",
+   "owner": "QwenLM",
+   "full_name": "QwenLM/Qwen3-Coder",
+   "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
+   "html_url": "https://github.com/QwenLM/Qwen3-Coder",
+   "language": "Python",
+   "stars": 16806
+  },
+  {
+   "name": "agents-course",
+   "owner": "huggingface",
+   "full_name": "huggingface/agents-course",
+   "description": "This repository contains the Hugging Face Agents Course.",
+   "html_url": "https://github.com/huggingface/agents-course",
+   "language": "MDX",
+   "stars": 31221
+  },
+  {
+   "name": "pytorch",
+   "owner": "pytorch",
+   "full_name": "pytorch/pytorch",
+   "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+   "html_url": "https://github.com/pytorch/pytorch",
+   "language": "Python",
+   "stars": 102506
+  },
+  {
+   "name": "openvino",
+   "owner": "openvinotoolkit",
+   "full_name": "openvinotoolkit/openvino",
+   "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "html_url": "https://github.com/openvinotoolkit/openvino",
+   "language": "C++",
+   "stars": 10688
+  },
+  {
+   "name": "openvino_notebooks",
+   "owner": "openvinotoolkit",
+   "full_name": "openvinotoolkit/openvino_notebooks",
+   "description": "📚 Jupyter notebook tutorials for OpenVINO™",
+   "html_url": "https://github.com/openvinotoolkit/openvino_notebooks",
+   "language": "Jupyter Notebook",
+   "stars": 3204
+  },
+  {
+   "name": "UNeXt-pytorch",
+   "owner": "jeya-maria-jose",
+   "full_name": "jeya-maria-jose/UNeXt-pytorch",
+   "description": "Official Pytorch Code base for \"UNeXt: MLP-based Rapid Medical Image Segmentation Network\", MICCAI 2022",
+   "html_url": "https://github.com/jeya-maria-jose/UNeXt-pytorch",
+   "language": "Python",
+   "stars": 571
+  },
+  {
+   "name": "Understand-Anything",
+   "owner": "Egonex-AI",
+   "full_name": "Egonex-AI/Understand-Anything",
+   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+   "html_url": "https://github.com/Egonex-AI/Understand-Anything",
+   "language": "TypeScript",
+   "stars": 79972
+  },
+  {
+   "name": "Restormer",
+   "owner": "swz30",
+   "full_name": "swz30/Restormer",
+   "description": "[CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA  for motion deblurring, image deraining, denoising (Gaussian/real data), and defocus deblurring.",
+   "html_url": "https://github.com/swz30/Restormer",
+   "language": "Python",
+   "stars": 2621
+  },
+  {
+   "name": "sglang",
+   "owner": "sgl-project",
+   "full_name": "sgl-project/sglang",
+   "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+   "html_url": "https://github.com/sgl-project/sglang",
+   "language": "Python",
+   "stars": 32221
+  },
+  {
+   "name": "NAFNet",
+   "owner": "megvii-research",
+   "full_name": "megvii-research/NAFNet",
+   "description": "The state-of-the-art image restoration model without nonlinear activation functions.",
+   "html_url": "https://github.com/megvii-research/NAFNet",
+   "language": "Python",
+   "stars": 3146
+  },
+  {
+   "name": "langchain",
+   "owner": "langchain-ai",
+   "full_name": "langchain-ai/langchain",
+   "description": "The agent engineering platform.",
+   "html_url": "https://github.com/langchain-ai/langchain",
+   "language": "Python",
+   "stars": 144697
+  },
+  {
+   "name": "caveman",
+   "owner": "JuliusBrussee",
+   "full_name": "JuliusBrussee/caveman",
+   "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+   "html_url": "https://github.com/JuliusBrussee/caveman",
+   "language": "Go",
+   "stars": 99850
+  },
+  {
+   "name": "new-api",
+   "owner": "QuantumNous",
+   "full_name": "QuantumNous/new-api",
+   "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+   "html_url": "https://github.com/QuantumNous/new-api",
+   "language": "Go",
+   "stars": 45822
+  },
+  {
+   "name": "InfraTech",
+   "owner": "CalvinXKY",
+   "full_name": "CalvinXKY/InfraTech",
+   "description": "分享AI Infra知识&代码练习：PyTorch、vLLM/SGLang、slime/vime框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等",
+   "html_url": "https://github.com/CalvinXKY/InfraTech",
+   "language": "Jupyter Notebook",
+   "stars": 3609
+  },
+  {
+   "name": "kimi-cli",
+   "owner": "MoonshotAI",
+   "full_name": "MoonshotAI/kimi-cli",
+   "description": "Kimi Code CLI is your next CLI agent.",
+   "html_url": "https://github.com/MoonshotAI/kimi-cli",
+   "language": "Python",
+   "stars": 11230
+  },
+  {
+   "name": "ebook-treasure-chest",
+   "owner": "jbiaojerry",
+   "full_name": "jbiaojerry/ebook-treasure-chest",
+   "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+   "html_url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+   "language": "Python",
+   "stars": 16261
+  }
+ ],
  "repos": [
   {
    "name": "sunbinbin1991.github.io",
@@ -332,7 +604,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-21T08:39:55Z",
+   "updated_at": "2026-08-21T08:45:11Z",
    "fork": false,
    "archived": false,
    "is_profile": false
