@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-21T09:03:28Z",
+ "generated_at": "2026-08-21T13:12:06Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -8,7 +8,7 @@ window.PORTFOLIO_DATA = {
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
   "followers": 37,
-  "following": 203,
+  "following": 205,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
   "joined_year": 2015,
@@ -19,7 +19,7 @@ window.PORTFOLIO_DATA = {
   "total": 66,
   "original": 21,
   "forks": 45,
-  "total_stars": 31,
+  "total_stars": 32,
   "total_forks": 10,
   "languages": {
    "C++": 15,
@@ -133,8 +133,155 @@ window.PORTFOLIO_DATA = {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T08:44:07Z",
+   "created_at": "2026-08-21T08:44:04Z",
    "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:00Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:38:50Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:13:05Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:12:27Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:59Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:14Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:12:40Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:13:17Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:12:53Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:03:56Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:09Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:11Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:28:27Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:28:29Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "xugaopeng1/awesome-python-login-model",
+   "repo_url": "https://github.com/xugaopeng1/awesome-python-login-model",
+   "created_at": "2026-08-21T09:36:53Z",
+   "text": "Star 了 xugaopeng1/awesome-python-login-model"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "QwenLM/Qwen3.8",
+   "repo_url": "https://github.com/QwenLM/Qwen3.8",
+   "created_at": "2026-08-21T09:22:44Z",
+   "text": "Star 了 QwenLM/Qwen3.8"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:35Z",
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:09Z",
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:47Z",
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:23Z",
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:07Z",
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "ForkEvent",
@@ -148,7 +295,7 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-21T08:28:33Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "WatchEvent",
@@ -169,14 +316,14 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/deepseek-harness",
    "repo_url": "https://github.com/sunbinbin1991/deepseek-harness",
    "created_at": "2026-08-20T05:48:14Z",
-   "text": "推送 536 个提交到 sunbinbin1991/deepseek-harness @ master"
+   "text": "推送了代码到 sunbinbin1991/deepseek-harness @ master"
   },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991",
    "created_at": "2026-08-20T03:37:32Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991 @ main"
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991 @ main"
   },
   {
    "type": "WatchEvent",
@@ -190,129 +337,28 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:15:41Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:15:17Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-   "repo_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-   "created_at": "2026-08-19T10:00:48Z",
-   "text": "Star 了 awesome-dsh-plugin/awesome-dsh-plugin"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:15:29Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:14:43Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "CreateEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:12:38Z",
-   "text": "创建了 branch: sunbinbin1991/sunbinbin1991.github.io"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:16:05Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-19T09:15:53Z",
-   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "alxndrTL/little-book-rl",
-   "repo_url": "https://github.com/alxndrTL/little-book-rl",
-   "created_at": "2026-08-19T08:23:52Z",
-   "text": "Star 了 alxndrTL/little-book-rl"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "tt-a1i/archify",
-   "repo_url": "https://github.com/tt-a1i/archify",
-   "created_at": "2026-08-19T08:21:34Z",
-   "text": "Star 了 tt-a1i/archify"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "laoma2053/awesome-zhuiju-free",
-   "repo_url": "https://github.com/laoma2053/awesome-zhuiju-free",
-   "created_at": "2026-08-19T07:45:03Z",
-   "text": "Star 了 laoma2053/awesome-zhuiju-free"
-  },
-  {
-   "type": "ForkEvent",
-   "repo": "deepseek-ai/deepseek-harness",
-   "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
-   "created_at": "2026-08-19T00:36:24Z",
-   "text": "Fork 了 deepseek-ai/deepseek-harness"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "deepseek-ai/deepseek-harness",
-   "repo_url": "https://github.com/deepseek-ai/deepseek-harness",
-   "created_at": "2026-08-14T00:47:03Z",
-   "text": "Star 了 deepseek-ai/deepseek-harness"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "lisaGUZZI/HD-Loss",
-   "repo_url": "https://github.com/lisaGUZZI/HD-Loss",
-   "created_at": "2026-08-13T09:08:07Z",
-   "text": "Star 了 lisaGUZZI/HD-Loss"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "MrGiovanni/UNetPlusPlus",
-   "repo_url": "https://github.com/MrGiovanni/UNetPlusPlus",
-   "created_at": "2026-08-11T07:04:37Z",
-   "text": "Star 了 MrGiovanni/UNetPlusPlus"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "LIVIAETS/boundary-loss",
-   "repo_url": "https://github.com/LIVIAETS/boundary-loss",
-   "created_at": "2026-08-07T02:03:53Z",
-   "text": "Star 了 LIVIAETS/boundary-loss"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "NVlabs/DiffOPC",
-   "repo_url": "https://github.com/NVlabs/DiffOPC",
-   "created_at": "2026-08-03T10:46:39Z",
-   "text": "Star 了 NVlabs/DiffOPC"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "milesial/Pytorch-UNet",
-   "repo_url": "https://github.com/milesial/Pytorch-UNet",
-   "created_at": "2026-07-24T06:25:07Z",
-   "text": "Star 了 milesial/Pytorch-UNet"
+   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
   }
  ],
  "starred": [
+  {
+   "name": "awesome-python-login-model",
+   "owner": "xugaopeng1",
+   "full_name": "xugaopeng1/awesome-python-login-model",
+   "description": "😮python模拟登陆一些大型网站，还有一些简单的爬虫，希望对你们有所帮助❤️，如果喜欢记得给个star哦🌟",
+   "html_url": "https://github.com/xugaopeng1/awesome-python-login-model",
+   "language": "Python",
+   "stars": 2
+  },
+  {
+   "name": "Qwen3.8",
+   "owner": "QwenLM",
+   "full_name": "QwenLM/Qwen3.8",
+   "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
+   "html_url": "https://github.com/QwenLM/Qwen3.8",
+   "language": "",
+   "stars": 3900
+  },
   {
    "name": "awesome-dsh-plugins",
    "owner": "AdamPlatin123",
@@ -320,7 +366,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH 插件雷达与精选榜：多路自动发现 9000+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
    "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
    "language": "Python",
-   "stars": 1302
+   "stars": 1310
   },
   {
    "name": "dshfind",
@@ -329,7 +375,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 196
+   "stars": 200
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -338,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "Auto-generated GitHub portfolio site · Pages + Actions + API 自动生成个人 GitHub 项目汇总页（定时刷新 · 实时拉取 · 限流回退）",
    "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "language": "JavaScript",
-   "stars": 1
+   "stars": 2
   },
   {
    "name": "awesome-dsh-plugin",
@@ -347,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 10924
+   "stars": 11014
   },
   {
    "name": "little-book-rl",
@@ -356,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1536
+   "stars": 1538
   },
   {
    "name": "archify",
@@ -365,7 +411,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "HTML",
-   "stars": 14852
+   "stars": 14897
   },
   {
    "name": "awesome-zhuiju-free",
@@ -374,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 6056
+   "stars": 6063
   },
   {
    "name": "deepseek-harness",
@@ -383,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 177745
+   "stars": 179183
   },
   {
    "name": "HD-Loss",
@@ -428,7 +474,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11602
+   "stars": 11603
   },
   {
    "name": "FasterNet",
@@ -446,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16806
+   "stars": 16807
   },
   {
    "name": "agents-course",
@@ -455,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 31221
+   "stars": 31227
   },
   {
    "name": "pytorch",
@@ -464,7 +510,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102506
+   "stars": 102510
   },
   {
    "name": "openvino",
@@ -500,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 79972
+   "stars": 79993
   },
   {
    "name": "Restormer",
@@ -518,7 +564,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 32221
+   "stars": 32225
   },
   {
    "name": "NAFNet",
@@ -536,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 144697
+   "stars": 144718
   },
   {
    "name": "caveman",
@@ -545,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
    "html_url": "https://github.com/JuliusBrussee/caveman",
    "language": "Go",
-   "stars": 99850
+   "stars": 99946
   },
   {
    "name": "new-api",
@@ -554,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
    "html_url": "https://github.com/QuantumNous/new-api",
    "language": "Go",
-   "stars": 45822
+   "stars": 45845
   },
   {
    "name": "InfraTech",
@@ -563,25 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "分享AI Infra知识&代码练习：PyTorch、vLLM/SGLang、slime/vime框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等",
    "html_url": "https://github.com/CalvinXKY/InfraTech",
    "language": "Jupyter Notebook",
-   "stars": 3609
-  },
-  {
-   "name": "kimi-cli",
-   "owner": "MoonshotAI",
-   "full_name": "MoonshotAI/kimi-cli",
-   "description": "Kimi Code CLI is your next CLI agent.",
-   "html_url": "https://github.com/MoonshotAI/kimi-cli",
-   "language": "Python",
-   "stars": 11230
-  },
-  {
-   "name": "ebook-treasure-chest",
-   "owner": "jbiaojerry",
-   "full_name": "jbiaojerry/ebook-treasure-chest",
-   "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
-   "html_url": "https://github.com/jbiaojerry/ebook-treasure-chest",
-   "language": "Python",
-   "stars": 16261
+   "stars": 3610
   }
  ],
  "repos": [
@@ -591,7 +619,7 @@ window.PORTFOLIO_DATA = {
    "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "homepage": "",
    "language": "JavaScript",
-   "stars": 1,
+   "stars": 2,
    "forks": 1,
    "topics": [
     "auto-deploy",
@@ -604,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-21T08:45:11Z",
+   "updated_at": "2026-08-21T09:34:25Z",
    "fork": false,
    "archived": false,
    "is_profile": false
