@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-21T09:03:28Z",
+ "generated_at": "2026-08-21T09:06:00Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -129,6 +129,20 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:47Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T09:04:23Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
@@ -347,7 +361,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 10924
+   "stars": 10927
   },
   {
    "name": "little-book-rl",
@@ -383,7 +397,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 177745
+   "stars": 177763
   },
   {
    "name": "HD-Loss",
@@ -500,7 +514,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 79972
+   "stars": 79973
   },
   {
    "name": "Restormer",
@@ -536,7 +550,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 144697
+   "stars": 144698
   },
   {
    "name": "caveman",
@@ -563,7 +577,7 @@ window.PORTFOLIO_DATA = {
    "description": "分享AI Infra知识&代码练习：PyTorch、vLLM/SGLang、slime/vime框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等",
    "html_url": "https://github.com/CalvinXKY/InfraTech",
    "language": "Jupyter Notebook",
-   "stars": 3609
+   "stars": 3610
   },
   {
    "name": "kimi-cli",
@@ -572,7 +586,7 @@ window.PORTFOLIO_DATA = {
    "description": "Kimi Code CLI is your next CLI agent.",
    "html_url": "https://github.com/MoonshotAI/kimi-cli",
    "language": "Python",
-   "stars": 11230
+   "stars": 11231
   },
   {
    "name": "ebook-treasure-chest",
@@ -604,7 +618,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-21T08:45:11Z",
+   "updated_at": "2026-08-21T09:05:01Z",
    "fork": false,
    "archived": false,
    "is_profile": false
