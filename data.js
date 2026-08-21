@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-21T08:29:11Z",
+ "generated_at": "2026-08-21T08:43:47Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -20,12 +20,12 @@ window.PORTFOLIO_DATA = {
   "original": 21,
   "forks": 45,
   "total_stars": 31,
-  "total_forks": 9,
+  "total_forks": 10,
   "languages": {
    "C++": 15,
    "Python": 7,
-   "C#": 3,
    "JavaScript": 3,
+   "C#": 3,
    "TypeScript": 2,
    "CSS": 2,
    "Java": 2,
@@ -130,11 +130,18 @@ window.PORTFOLIO_DATA = {
  },
  "events": [
   {
+   "type": "ForkEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:31:55Z",
+   "text": "Fork 了 sunbinbin1991/sunbinbin1991.github.io"
+  },
+  {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-21T08:28:33Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "WatchEvent",
@@ -155,14 +162,14 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/deepseek-harness",
    "repo_url": "https://github.com/sunbinbin1991/deepseek-harness",
    "created_at": "2026-08-20T05:48:14Z",
-   "text": "推送 0 个提交到 sunbinbin1991/deepseek-harness @ master"
+   "text": "推送 536 个提交到 sunbinbin1991/deepseek-harness @ master"
   },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991",
    "created_at": "2026-08-20T03:37:32Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991 @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991 @ main"
   },
   {
    "type": "WatchEvent",
@@ -176,14 +183,14 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:15:41Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:15:17Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "WatchEvent",
@@ -197,14 +204,14 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:15:29Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:14:43Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "CreateEvent",
@@ -218,14 +225,14 @@ window.PORTFOLIO_DATA = {
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:16:05Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-19T09:15:53Z",
-   "text": "推送 0 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
   },
   {
    "type": "WatchEvent",
@@ -299,6 +306,30 @@ window.PORTFOLIO_DATA = {
   }
  ],
  "repos": [
+  {
+   "name": "sunbinbin1991.github.io",
+   "description": "Auto-generated GitHub portfolio site · Pages + Actions + API 自动生成个人 GitHub 项目汇总页（定时刷新 · 实时拉取 · 限流回退）",
+   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "homepage": "",
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 1,
+   "topics": [
+    "auto-deploy",
+    "github-actions",
+    "github-api",
+    "github-pages",
+    "javascript",
+    "personal-website",
+    "portfolio",
+    "static-site"
+   ],
+   "created_at": "2026-08-19T09:12:37Z",
+   "updated_at": "2026-08-21T08:39:55Z",
+   "fork": false,
+   "archived": false,
+   "is_profile": false
+  },
   {
    "name": "faceTracker",
    "description": "Open-source face tracking for beginners · faceTracker 入门级人脸跟踪",
@@ -445,30 +476,6 @@ window.PORTFOLIO_DATA = {
    "topics": [],
    "created_at": "2017-07-20T12:28:43Z",
    "updated_at": "2026-08-21T08:28:35Z",
-   "fork": false,
-   "archived": false,
-   "is_profile": false
-  },
-  {
-   "name": "sunbinbin1991.github.io",
-   "description": "Auto-generated GitHub portfolio site · Pages + Actions + API 自动生成个人 GitHub 项目汇总页（定时刷新 · 实时拉取 · 限流回退）",
-   "html_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "homepage": "",
-   "language": "JavaScript",
-   "stars": 1,
-   "forks": 0,
-   "topics": [
-    "auto-deploy",
-    "github-actions",
-    "github-api",
-    "github-pages",
-    "javascript",
-    "personal-website",
-    "portfolio",
-    "static-site"
-   ],
-   "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-21T08:28:25Z",
    "fork": false,
    "archived": false,
    "is_profile": false
