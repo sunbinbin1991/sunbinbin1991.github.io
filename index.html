@@ -264,9 +264,8 @@
   }
   .repos-main { min-width: 0; }
   .starred-panel {
-    position: sticky; top: 76px;
     background: var(--card); border: 1px solid var(--border-soft); border-radius: var(--radius);
-    padding: 16px 18px 10px; max-height: calc(100vh - 96px); overflow: auto;
+    padding: 16px 18px 10px;
   }
   .starred-panel .sec-head { margin-bottom: 10px; }
   .starred-panel h3 { font-size: 16px; font-weight: 750; }
@@ -282,7 +281,6 @@
   .s-meta .star { color: var(--gold); font-weight: 700; }
   @media (max-width: 960px) {
     .repos-layout { grid-template-columns: 1fr; }
-    .starred-panel { position: static; max-height: none; }
   }
 
   /* ---------- footer ---------- */
