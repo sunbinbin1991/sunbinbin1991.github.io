@@ -20,11 +20,40 @@ HEADERS = {
     "Accept": "application/vnd.github+json",
 }
 
+# 在 GitHub Actions 中运行时注入内置 token，获得 5000 次/小时的配额；
+# 本地无 token 时走匿名配额（60 次/小时）。
+TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+
+_ENRICH_LIMIT = 15          # 最多补全多少条 push 的提交数
+_enrich_used = 0
+_enrich_failed = False      # 一旦失败（如限流）就停止补全
+
 
 def get(path):
     req = urllib.request.Request(BASE + path, headers=HEADERS)
+    if TOKEN:
+        req.add_header("Authorization", f"Bearer {TOKEN}")
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode("utf-8"))
+
+
+def enrich_push_count(repo, payload):
+    """Events API 不返回提交数；用 compare(before...head) 拿到真实 total_commits。"""
+    global _enrich_used, _enrich_failed
+    if _enrich_failed or _enrich_used >= _ENRICH_LIMIT:
+        return None
+    head = payload.get("head")
+    before = payload.get("before")
+    if not repo or not head or not before:
+        return None
+    _enrich_used += 1
+    try:
+        info = get(f"/repos/{repo}/compare/{before}...{head}")
+        total = info.get("total_commits")
+        return int(total) if total is not None else None
+    except Exception:
+        _enrich_failed = True  # 疑似限流/瞬时错误，停止继续补全
+        return None
 
 
 def fetch_user():
@@ -67,9 +96,14 @@ def fetch_events():
             "created_at": e.get("created_at", ""),
         }
         if t == "PushEvent":
-            n = len(payload.get("commits", []) or [])
             ref = (payload.get("ref") or "").replace("refs/heads/", "")
-            item["text"] = f"推送 {n} 个提交到 {repo} @ {ref}"
+            n = len(payload.get("commits", []) or [])
+            if not n:
+                n = enrich_push_count(repo, payload)
+            if n:
+                item["text"] = f"推送 {n} 个提交到 {repo} @ {ref}"
+            else:
+                item["text"] = f"推送了代码到 {repo} @ {ref}"
         elif t == "CreateEvent":
             rt = payload.get("ref_type", "")
             item["text"] = f"创建了 {rt}: {repo}"
