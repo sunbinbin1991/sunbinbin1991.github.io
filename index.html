@@ -103,6 +103,32 @@
   .stat .num { font-size: 27px; font-weight: 800; background: linear-gradient(135deg, var(--accent2), var(--accent)); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .stat .label { font-size: 12.5px; color: var(--text-faint); margin-top: 2px; letter-spacing: .5px; }
 
+  /* ---------- CTA banner ---------- */
+  .cta-banner {
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+    background: linear-gradient(135deg, rgba(251,191,36,.12), rgba(99,102,241,.10));
+    border: 1px solid rgba(251,191,36,.30); border-radius: var(--radius);
+    padding: 12px 18px; margin: 18px 0 4px; font-size: 14px; color: var(--text-dim);
+  }
+  .cta-banner a { color: var(--gold); font-weight: 700; }
+  .cta-banner a:hover { text-decoration: underline; }
+  .cta-sep { color: var(--text-faint); }
+
+  /* ---------- fork collapsible ---------- */
+  .fork-block {
+    margin-top: 18px; border: 1px dashed var(--border); border-radius: var(--radius);
+    background: rgba(148,163,184,.04);
+  }
+  .fork-block summary {
+    cursor: pointer; padding: 12px 18px; font-size: 14px; font-weight: 600;
+    color: var(--text-dim); user-select: none; list-style: none;
+  }
+  .fork-block summary::-webkit-details-marker { display: none; }
+  .fork-block summary::before { content: "▸ "; }
+  .fork-block[open] summary::before { content: "▾ "; }
+  .fork-block summary:hover { color: var(--accent2); }
+  .fork-block .grid { padding: 0 14px 16px; }
+
   /* ---------- sections ---------- */
   section { margin: 44px 0; }
   .sec-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 18px; flex-wrap: wrap; }
@@ -288,6 +314,13 @@
 <main class="wrap">
   <div id="statsRow" class="stats"></div>
 
+  <div class="cta-banner">
+    <span>⭐ 觉得这个项目模板有用？</span>
+    <a href="https://github.com/sunbinbin1991/sunbinbin1991.github.io" target="_blank" rel="noopener">给仓库点个 Star</a>
+    <span class="cta-sep">·</span>
+    <a href="https://github.com/sunbinbin1991/sunbinbin1991.github.io/fork" target="_blank" rel="noopener">Fork 部署你自己的版本</a>
+  </div>
+
   <section id="activity">
     <div class="sec-head">
       <h2>⚡ 最新动态</h2>
@@ -402,7 +435,7 @@
     document.getElementById("heroName").innerHTML =
       esc(U.name) + ' <span class="handle">@' + esc(U.login) + "</span>";
     document.getElementById("heroBio").textContent =
-      U.bio || "Stay foolish, stay hungry.";
+      U.bio || "Stay hungry, stay foolish.";
     var meta = [];
     if (U.location) meta.push("📍 " + esc(U.location));
     meta.push("🎂 " + U.joined_year + " 年加入 GitHub");
@@ -523,9 +556,23 @@
 
   function renderRepos() {
     var list = applyFilters(D.repos);
+    var grid = document.getElementById("repoGrid");
     document.getElementById("resultCount").textContent =
       "显示 " + list.length + " / " + D.repos.length + " 个项目";
-    document.getElementById("repoGrid").innerHTML = list.map(function (r) { return cardHTML(r, false); }).join("");
+    // 默认视图（无筛选/搜索/排序时）：原创项目优先展示，Fork 收藏折叠
+    var simpleView = state.type === "all" && state.lang === "all" && !state.q && state.sort === "featured";
+    if (simpleView) {
+      var orig = list.filter(function (r) { return !r.fork; });
+      var forks = list.filter(function (r) { return r.fork; });
+      var html = '<div class="grid">' + orig.map(function (r) { return cardHTML(r, false); }).join("") + "</div>";
+      if (forks.length) {
+        html += '<details class="fork-block"><summary>Fork 收藏（' + forks.length + '）· 点击展开</summary>' +
+          '<div class="grid">' + forks.map(function (r) { return cardHTML(r, false); }).join("") + "</div></details>";
+      }
+      grid.innerHTML = html;
+    } else {
+      grid.innerHTML = list.map(function (r) { return cardHTML(r, false); }).join("");
+    }
     document.getElementById("empty").style.display = list.length ? "none" : "block";
   }
 
