@@ -23,6 +23,9 @@ jobs:
 
       - name: Build data.js from GitHub API
         run: python _data/build.py
+        env:
+          # 内置 token：让 API 调用使用 5000 次/小时配额，并支持 compare 补全真实提交数
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
