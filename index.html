@@ -258,6 +258,33 @@
   .empty { text-align: center; color: var(--text-faint); padding: 60px 0; font-size: 14.5px; }
   .result-count { color: var(--text-faint); font-size: 13px; margin-bottom: 14px; }
 
+  /* ---------- repos layout: main + right sidebar ---------- */
+  .repos-layout {
+    display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 22px; align-items: start;
+  }
+  .repos-main { min-width: 0; }
+  .starred-panel {
+    position: sticky; top: 76px;
+    background: var(--card); border: 1px solid var(--border-soft); border-radius: var(--radius);
+    padding: 16px 18px 10px; max-height: calc(100vh - 96px); overflow: auto;
+  }
+  .starred-panel .sec-head { margin-bottom: 10px; }
+  .starred-panel h3 { font-size: 16px; font-weight: 750; }
+  .starred-list { display: flex; flex-direction: column; }
+  .starred-item { display: flex; flex-direction: column; gap: 2px; padding: 9px 0; border-bottom: 1px dashed var(--border-soft); }
+  .starred-item:last-child { border-bottom: none; }
+  .s-name { font-size: 13.5px; font-weight: 700; display: flex; align-items: center; gap: 7px; min-width: 0; }
+  .s-name a { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .s-name a:hover { color: var(--accent2); }
+  .s-owner { font-size: 11px; color: var(--text-faint); }
+  .s-desc { font-size: 12px; color: var(--text-dim); display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .s-meta { display: flex; align-items: center; gap: 10px; font-size: 11.5px; color: var(--text-faint); }
+  .s-meta .star { color: var(--gold); font-weight: 700; }
+  @media (max-width: 960px) {
+    .repos-layout { grid-template-columns: 1fr; }
+    .starred-panel { position: static; max-height: none; }
+  }
+
   /* ---------- footer ---------- */
   footer { border-top: 1px solid var(--border-soft); margin-top: 60px; padding: 30px 0 40px; color: var(--text-faint); font-size: 13px; }
   footer .wrap { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
@@ -349,35 +376,47 @@
       <span class="rule"></span>
     </div>
 
-    <div class="toolbar">
-      <div class="search">
-        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="5"/><path d="m11 11 3.5 3.5"/></svg>
-        <input id="searchInput" type="text" placeholder="搜索仓库名 / 描述 / 标签…">
-      </div>
-      <div class="seg" id="typeSeg">
-        <button data-type="all" class="active">全部</button>
-        <button data-type="orig">原创</button>
-        <button data-type="fork">Fork 收藏</button>
-      </div>
-      <div class="sort">
-        <select id="sortSelect">
-          <option value="featured">默认推荐</option>
-          <option value="stars">Star 最多</option>
-          <option value="updated">最近更新</option>
-          <option value="name">名称 A-Z</option>
-          <option value="newest">最近创建</option>
-        </select>
-      </div>
-      <button id="refreshBtn" class="refresh-btn" title="从 GitHub 拉取最新数据">
-        <span class="spin">⟳</span> 刷新数据
-      </button>
-      <div id="langChips" class="lang-chips"></div>
-    </div>
+    <div class="repos-layout">
+      <div class="repos-main">
+        <div class="toolbar">
+          <div class="search">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="7" cy="7" r="5"/><path d="m11 11 3.5 3.5"/></svg>
+            <input id="searchInput" type="text" placeholder="搜索仓库名 / 描述 / 标签…">
+          </div>
+          <div class="seg" id="typeSeg">
+            <button data-type="all" class="active">全部</button>
+            <button data-type="orig">原创</button>
+            <button data-type="fork">Fork 收藏</button>
+          </div>
+          <div class="sort">
+            <select id="sortSelect">
+              <option value="featured">默认推荐</option>
+              <option value="stars">Star 最多</option>
+              <option value="updated">最近更新</option>
+              <option value="name">名称 A-Z</option>
+              <option value="newest">最近创建</option>
+            </select>
+          </div>
+          <button id="refreshBtn" class="refresh-btn" title="从 GitHub 拉取最新数据">
+            <span class="spin">⟳</span> 刷新数据
+          </button>
+          <div id="langChips" class="lang-chips"></div>
+        </div>
 
-    <div id="statusLine" class="status-line"></div>
-    <div id="resultCount" class="result-count"></div>
-    <div id="repoGrid" class="grid"></div>
-    <div id="empty" class="empty" style="display:none">没有符合条件的项目，换个关键词试试吧 🐟</div>
+        <div id="statusLine" class="status-line"></div>
+        <div id="resultCount" class="result-count"></div>
+        <div id="repoGrid" class="grid"></div>
+        <div id="empty" class="empty" style="display:none">没有符合条件的项目，换个关键词试试吧 🐟</div>
+      </div>
+
+      <aside class="starred-panel">
+        <div class="sec-head">
+          <h3>⭐ 近期 Star 的项目</h3>
+          <span class="rule"></span>
+        </div>
+        <div id="starredList" class="starred-list"><div class="empty">加载中…</div></div>
+      </aside>
+    </div>
   </section>
 </main>
 
@@ -516,6 +555,26 @@
     }).join("") + "</ul>";
   }
 
+  function renderStarred() {
+    var el = document.getElementById("starredList");
+    if (!el) return;
+    var list = (D.starred || []).slice(0, 20);
+    if (!list.length) {
+      el.innerHTML = '<div class="empty">暂无数据</div>';
+      return;
+    }
+    el.innerHTML = list.map(function (s) {
+      return '<div class="starred-item">' +
+        '<div class="s-name"><span class="lang-dot" style="background:' + langColor(s.language) + '"></span>' +
+        '<a href="' + esc(s.html_url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></div>" +
+        '<div class="s-owner">' + esc(s.owner || "") + "</div>" +
+        (s.description ? '<div class="s-desc">' + esc(s.description) + "</div>" : "") +
+        '<div class="s-meta"><span class="star">★ ' + s.stars + "</span>" +
+        (s.language ? "<span>" + esc(s.language) + "</span>" : "") +
+        "</div></div>";
+    }).join("");
+  }
+
   // ---------- filters ----------
   var state = { type: "all", lang: "all", q: "", sort: "featured" };
 
@@ -581,6 +640,7 @@
     renderStats();
     renderFeatured();
     renderActivity();
+    renderStarred();
     renderLangChips();
     renderRepos();
   }
@@ -677,6 +737,20 @@
     var evs = mapEvents(live.events);
     if (evs.length) D.events = evs;
 
+    if (live.starred && live.starred.length) {
+      D.starred = live.starred.map(function (r) {
+        return {
+          name: r.name,
+          owner: (r.owner && r.owner.login) || "",
+          full_name: r.full_name || "",
+          description: (r.description || "").trim(),
+          html_url: r.html_url,
+          language: r.language || "",
+          stars: r.stargazers_count
+        };
+      });
+    }
+
     renderAll();
   }
 
@@ -688,9 +762,10 @@
     Promise.all([
       fetchJSON(base),
       fetchJSON(base + "/repos?per_page=100&sort=updated&type=all"),
-      fetchJSON(base + "/events/public?per_page=30")
+      fetchJSON(base + "/events/public?per_page=30"),
+      fetchJSON(base + "/starred?per_page=30&sort=created&direction=desc")
     ]).then(function (res) {
-      applyLive({ user: res[0], repos: res[1], events: res[2] }, false);
+      applyLive({ user: res[0], repos: res[1], events: res[2], starred: res[3] }, false);
       try {
         localStorage.setItem("portfolio_live_" + U.login, JSON.stringify({ ts: Date.now(), data: res }));
       } catch (e) {}
