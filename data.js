@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-21T08:43:47Z",
+ "generated_at": "2026-08-21T08:44:37Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -129,6 +129,13 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-08-21T08:44:07Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
   {
    "type": "ForkEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
