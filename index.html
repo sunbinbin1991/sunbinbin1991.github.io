@@ -628,7 +628,11 @@
       if (t === "PushEvent") {
         var n = (p.commits || []).length;
         var ref = (p.ref || "").replace("refs/heads/", "");
-        item.text = "推送 " + n + " 个提交到 " + repo + " @ " + ref;
+        // Events API 不返回提交数（commits 为空），实时路径拿不到真实数量时
+        // 不显示误导性的 "0 个提交"，改为通用表述；快照数据里有真实数字。
+        item.text = n
+          ? "推送 " + n + " 个提交到 " + repo + " @ " + ref
+          : "推送了代码到 " + repo + " @ " + ref;
       } else if (t === "CreateEvent") item.text = "创建了 " + p.ref_type + ": " + repo;
       else if (t === "DeleteEvent") item.text = "删除了 " + p.ref_type + ": " + repo;
       else if (t === "ForkEvent") item.text = "Fork 了 " + repo;
