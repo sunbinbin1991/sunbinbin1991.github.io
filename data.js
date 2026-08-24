@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-23T18:49:30Z",
+ "generated_at": "2026-08-24T01:58:57Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -366,7 +366,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH 插件雷达与精选榜：多路自动发现 9000+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
    "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
    "language": "Python",
-   "stars": 1355
+   "stars": 1358
   },
   {
    "name": "dshfind",
@@ -375,7 +375,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 212
+   "stars": 214
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -393,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 11854
+   "stars": 11896
   },
   {
    "name": "little-book-rl",
@@ -411,7 +411,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "HTML",
-   "stars": 15140
+   "stars": 15161
   },
   {
    "name": "awesome-zhuiju-free",
@@ -420,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 6150
+   "stars": 6155
   },
   {
    "name": "deepseek-harness",
@@ -429,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 187611
+   "stars": 188276
   },
   {
    "name": "HD-Loss",
@@ -492,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16809
+   "stars": 16810
   },
   {
    "name": "agents-course",
@@ -501,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 31287
+   "stars": 31294
   },
   {
    "name": "pytorch",
@@ -510,7 +510,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102558
+   "stars": 102563
   },
   {
    "name": "openvino",
@@ -519,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10701
+   "stars": 10702
   },
   {
    "name": "openvino_notebooks",
@@ -546,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 80207
+   "stars": 80223
   },
   {
    "name": "Restormer",
@@ -555,7 +555,7 @@ window.PORTFOLIO_DATA = {
    "description": "[CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA  for motion deblurring, image deraining, denoising (Gaussian/real data), and defocus deblurring.",
    "html_url": "https://github.com/swz30/Restormer",
    "language": "Python",
-   "stars": 2623
+   "stars": 2625
   },
   {
    "name": "sglang",
@@ -564,7 +564,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 32299
+   "stars": 32314
   },
   {
    "name": "NAFNet",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "The state-of-the-art image restoration model without nonlinear activation functions.",
    "html_url": "https://github.com/megvii-research/NAFNet",
    "language": "Python",
-   "stars": 3146
+   "stars": 3145
   },
   {
    "name": "langchain",
@@ -582,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 144832
+   "stars": 144848
   },
   {
    "name": "caveman",
@@ -591,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
    "html_url": "https://github.com/JuliusBrussee/caveman",
    "language": "Go",
-   "stars": 100484
+   "stars": 100522
   },
   {
    "name": "new-api",
@@ -600,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
    "html_url": "https://github.com/QuantumNous/new-api",
    "language": "Go",
-   "stars": 45982
+   "stars": 46012
   },
   {
    "name": "InfraTech",
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-23T13:03:27Z",
+   "updated_at": "2026-08-23T18:49:48Z",
    "fork": false,
    "archived": false,
    "is_profile": false
