@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-26T07:10:08Z",
+ "generated_at": "2026-08-26T13:17:45Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -129,6 +129,13 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "WatchEvent",
+   "repo": "Kainmueller-Lab/shift_equivariance_unet",
+   "repo_url": "https://github.com/Kainmueller-Lab/shift_equivariance_unet",
+   "created_at": "2026-08-26T09:43:25Z",
+   "text": "Star 了 Kainmueller-Lab/shift_equivariance_unet"
+  },
   {
    "type": "PushEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
@@ -331,16 +338,18 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991",
    "created_at": "2026-08-20T03:37:32Z",
    "text": "推送了代码到 sunbinbin1991/sunbinbin1991 @ main"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-20T03:29:07Z",
-   "text": "Star 了 sunbinbin1991/sunbinbin1991.github.io"
   }
  ],
  "starred": [
+  {
+   "name": "shift_equivariance_unet",
+   "owner": "Kainmueller-Lab",
+   "full_name": "Kainmueller-Lab/shift_equivariance_unet",
+   "description": "How Shift Equivariance Impacts Metric Learning for Instance Segmentation",
+   "html_url": "https://github.com/Kainmueller-Lab/shift_equivariance_unet",
+   "language": "Jupyter Notebook",
+   "stars": 4
+  },
   {
    "name": "awesome-python-login-model",
    "owner": "xugaopeng1",
@@ -357,7 +366,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 3963
+   "stars": 3967
   },
   {
    "name": "awesome-dsh-plugins",
@@ -366,7 +375,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH 插件雷达与精选榜：多路自动发现 9000+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
    "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
    "language": "Python",
-   "stars": 1393
+   "stars": 1397
   },
   {
    "name": "dshfind",
@@ -375,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 224
+   "stars": 225
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -393,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 12766
+   "stars": 12858
   },
   {
    "name": "little-book-rl",
@@ -411,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "HTML",
-   "stars": 16575
+   "stars": 16948
   },
   {
    "name": "awesome-zhuiju-free",
@@ -420,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 6296
+   "stars": 6322
   },
   {
    "name": "deepseek-harness",
@@ -429,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 196226
+   "stars": 197128
   },
   {
    "name": "HD-Loss",
@@ -474,7 +483,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11612
+   "stars": 11613
   },
   {
    "name": "FasterNet",
@@ -492,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16809
+   "stars": 16810
   },
   {
    "name": "agents-course",
@@ -501,7 +510,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 31372
+   "stars": 31388
   },
   {
    "name": "pytorch",
@@ -510,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102604
+   "stars": 102598
   },
   {
    "name": "openvino",
@@ -519,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10729
+   "stars": 10735
   },
   {
    "name": "openvino_notebooks",
@@ -546,7 +555,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 80530
+   "stars": 80570
   },
   {
    "name": "Restormer",
@@ -564,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 32460
+   "stars": 32483
   },
   {
    "name": "NAFNet",
@@ -582,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 145015
+   "stars": 145042
   },
   {
    "name": "caveman",
@@ -591,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
    "html_url": "https://github.com/JuliusBrussee/caveman",
    "language": "Go",
-   "stars": 101003
+   "stars": 101087
   },
   {
    "name": "new-api",
@@ -600,16 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
    "html_url": "https://github.com/QuantumNous/new-api",
    "language": "Go",
-   "stars": 46353
-  },
-  {
-   "name": "InfraTech",
-   "owner": "CalvinXKY",
-   "full_name": "CalvinXKY/InfraTech",
-   "description": "分享AI Infra知识&代码练习：PyTorch、vLLM/SGLang、slime/vime框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等",
-   "html_url": "https://github.com/CalvinXKY/InfraTech",
-   "language": "Jupyter Notebook",
-   "stars": 3674
+   "stars": 46420
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-26T01:59:57Z",
+   "updated_at": "2026-08-26T07:10:40Z",
    "fork": false,
    "archived": false,
    "is_profile": false
