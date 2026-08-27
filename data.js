@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-27T09:51:32Z",
+ "generated_at": "2026-08-27T22:17:08Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -8,7 +8,7 @@ window.PORTFOLIO_DATA = {
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
   "followers": 37,
-  "following": 205,
+  "following": 206,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
   "joined_year": 2015,
@@ -129,6 +129,20 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "WatchEvent",
+   "repo": "dataelement/dsh-desktop",
+   "repo_url": "https://github.com/dataelement/dsh-desktop",
+   "created_at": "2026-08-27T11:54:53Z",
+   "text": "Star 了 dataelement/dsh-desktop"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "jscanvic/UNet-AF",
+   "repo_url": "https://github.com/jscanvic/UNet-AF",
+   "created_at": "2026-08-27T10:47:02Z",
+   "text": "Star 了 jscanvic/UNet-AF"
+  },
   {
    "type": "WatchEvent",
    "repo": "Kainmueller-Lab/shift_equivariance_unet",
@@ -324,23 +338,27 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/hikariming/dshfind",
    "created_at": "2026-08-21T08:21:42Z",
    "text": "Star 了 hikariming/dshfind"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/deepseek-harness",
-   "repo_url": "https://github.com/sunbinbin1991/deepseek-harness",
-   "created_at": "2026-08-20T05:48:14Z",
-   "text": "推送了代码到 sunbinbin1991/deepseek-harness @ master"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991",
-   "created_at": "2026-08-20T03:37:32Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991 @ main"
   }
  ],
  "starred": [
+  {
+   "name": "dsh-desktop",
+   "owner": "dataelement",
+   "full_name": "dataelement/dsh-desktop",
+   "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+   "html_url": "https://github.com/dataelement/dsh-desktop",
+   "language": "TypeScript",
+   "stars": 2902
+  },
+  {
+   "name": "UNet-AF",
+   "owner": "jscanvic",
+   "full_name": "jscanvic/UNet-AF",
+   "description": "",
+   "html_url": "https://github.com/jscanvic/UNet-AF",
+   "language": "Python",
+   "stars": 2
+  },
   {
    "name": "shift_equivariance_unet",
    "owner": "Kainmueller-Lab",
@@ -366,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 3985
+   "stars": 4000
   },
   {
    "name": "awesome-dsh-plugins",
@@ -375,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH 插件雷达与精选榜：多路自动发现 14900+ 候选，容器真实安装路径运行级实测（四档判定），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
    "html_url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
    "language": "Python",
-   "stars": 1413
+   "stars": 1417
   },
   {
    "name": "dshfind",
@@ -384,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 230
+   "stars": 232
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -402,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 13099
+   "stars": 13193
   },
   {
    "name": "little-book-rl",
@@ -411,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1553
+   "stars": 1556
   },
   {
    "name": "archify",
@@ -420,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 20364
+   "stars": 22908
   },
   {
    "name": "awesome-zhuiju-free",
@@ -429,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 6358
+   "stars": 6371
   },
   {
    "name": "deepseek-harness",
@@ -438,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 199193
+   "stars": 200115
   },
   {
    "name": "HD-Loss",
@@ -501,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16810
+   "stars": 16813
   },
   {
    "name": "agents-course",
@@ -510,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 31417
+   "stars": 31458
   },
   {
    "name": "pytorch",
@@ -519,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102612
+   "stars": 102629
   },
   {
    "name": "openvino",
@@ -528,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10743
+   "stars": 10746
   },
   {
    "name": "openvino_notebooks",
@@ -537,7 +555,7 @@ window.PORTFOLIO_DATA = {
    "description": "📚 Jupyter notebook tutorials for OpenVINO™",
    "html_url": "https://github.com/openvinotoolkit/openvino_notebooks",
    "language": "Jupyter Notebook",
-   "stars": 3207
+   "stars": 3208
   },
   {
    "name": "UNeXt-pytorch",
@@ -555,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 80681
+   "stars": 80768
   },
   {
    "name": "Restormer",
@@ -564,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "[CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA  for motion deblurring, image deraining, denoising (Gaussian/real data), and defocus deblurring.",
    "html_url": "https://github.com/swz30/Restormer",
    "language": "Python",
-   "stars": 2626
+   "stars": 2627
   },
   {
    "name": "sglang",
@@ -573,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 32547
+   "stars": 32577
   },
   {
    "name": "NAFNet",
@@ -591,25 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 145101
-  },
-  {
-   "name": "caveman",
-   "owner": "JuliusBrussee",
-   "full_name": "JuliusBrussee/caveman",
-   "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-   "html_url": "https://github.com/JuliusBrussee/caveman",
-   "language": "Go",
-   "stars": 101291
-  },
-  {
-   "name": "new-api",
-   "owner": "QuantumNous",
-   "full_name": "QuantumNous/new-api",
-   "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
-   "html_url": "https://github.com/QuantumNous/new-api",
-   "language": "Go",
-   "stars": 46554
+   "stars": 145144
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-26T20:50:43Z",
+   "updated_at": "2026-08-27T09:57:16Z",
    "fork": false,
    "archived": false,
    "is_profile": false
