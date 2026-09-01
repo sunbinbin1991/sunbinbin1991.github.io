@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-08-31T22:52:23Z",
+ "generated_at": "2026-09-01T05:12:06Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -348,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 3550
+   "stars": 3589
   },
   {
    "name": "UNet-AF",
@@ -393,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — 开源 DSH 插件生态雷达：自动发现 15900+ 候选、k8s 运行级实测 10000+、15 分钟快照管线；插件目录是其自动生成的 artifact",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1437
+   "stars": 1438
   },
   {
    "name": "dshfind",
@@ -420,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 13889
+   "stars": 13937
   },
   {
    "name": "little-book-rl",
@@ -438,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 38518
+   "stars": 39579
   },
   {
    "name": "awesome-zhuiju-free",
@@ -447,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 7505
+   "stars": 7611
   },
   {
    "name": "deepseek-harness",
@@ -456,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 206414
+   "stars": 206841
   },
   {
    "name": "HD-Loss",
@@ -474,7 +474,7 @@ window.PORTFOLIO_DATA = {
    "description": "[IEEE TMI Best Paper Award] Official Implementation for UNet++",
    "html_url": "https://github.com/MrGiovanni/UNetPlusPlus",
    "language": "Python",
-   "stars": 2678
+   "stars": 2679
   },
   {
    "name": "boundary-loss",
@@ -501,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11616
+   "stars": 11617
   },
   {
    "name": "FasterNet",
@@ -528,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32002
+   "stars": 32011
   },
   {
    "name": "pytorch",
@@ -537,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102696
+   "stars": 102697
   },
   {
    "name": "openvino",
@@ -555,7 +555,7 @@ window.PORTFOLIO_DATA = {
    "description": "📚 Jupyter notebook tutorials for OpenVINO™",
    "html_url": "https://github.com/openvinotoolkit/openvino_notebooks",
    "language": "Jupyter Notebook",
-   "stars": 3209
+   "stars": 3210
   },
   {
    "name": "UNeXt-pytorch",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 81189
+   "stars": 81211
   },
   {
    "name": "Restormer",
@@ -591,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 32996
+   "stars": 33008
   },
   {
    "name": "NAFNet",
@@ -600,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "The state-of-the-art image restoration model without nonlinear activation functions.",
    "html_url": "https://github.com/megvii-research/NAFNet",
    "language": "Python",
-   "stars": 3149
+   "stars": 3150
   },
   {
    "name": "langchain",
@@ -609,7 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 145370
+   "stars": 145390
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-08-31T14:04:55Z",
+   "updated_at": "2026-08-31T22:52:29Z",
    "fork": false,
    "archived": false,
    "is_profile": false
