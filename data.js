@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-04T20:47:03Z",
+ "generated_at": "2026-09-05T04:32:32Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -348,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 4153
+   "stars": 4179
   },
   {
    "name": "UNet-AF",
@@ -384,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4068
+   "stars": 4071
   },
   {
    "name": "dsh-plugin-radar",
@@ -393,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — 开源可自部署的 DSH 插件生态雷达：自动发现 15900+ 候选、k8s 运行级实测管线；自动索引可用Plugin List",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1446
+   "stars": 1447
   },
   {
    "name": "dshfind",
@@ -420,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 14464
+   "stars": 14497
   },
   {
    "name": "little-book-rl",
@@ -438,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 47890
+   "stars": 48311
   },
   {
    "name": "awesome-zhuiju-free",
@@ -447,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 7974
+   "stars": 7980
   },
   {
    "name": "deepseek-harness",
@@ -456,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 212170
+   "stars": 212411
   },
   {
    "name": "HD-Loss",
@@ -528,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32192
+   "stars": 32199
   },
   {
    "name": "pytorch",
@@ -537,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102760
+   "stars": 102763
   },
   {
    "name": "openvino",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 81486
+   "stars": 81512
   },
   {
    "name": "Restormer",
@@ -591,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 35469
+   "stars": 35490
   },
   {
    "name": "NAFNet",
@@ -609,7 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 145647
+   "stars": 145669
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-04T16:23:10Z",
+   "updated_at": "2026-09-04T20:47:08Z",
    "fork": false,
    "archived": false,
    "is_profile": false
