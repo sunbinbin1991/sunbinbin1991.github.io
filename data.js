@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-08T11:21:50Z",
+ "generated_at": "2026-09-08T16:39:54Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -348,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 4510
+   "stars": 4545
   },
   {
    "name": "UNet-AF",
@@ -402,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 249
+   "stars": 250
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -420,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 14861
+   "stars": 14910
   },
   {
    "name": "little-book-rl",
@@ -438,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 54005
+   "stars": 54368
   },
   {
    "name": "awesome-zhuiju-free",
@@ -447,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8269
+   "stars": 8283
   },
   {
    "name": "deepseek-harness",
@@ -456,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 215791
+   "stars": 216085
   },
   {
    "name": "HD-Loss",
@@ -501,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11638
+   "stars": 11641
   },
   {
    "name": "FasterNet",
@@ -528,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32299
+   "stars": 32311
   },
   {
    "name": "pytorch",
@@ -537,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102853
+   "stars": 102860
   },
   {
    "name": "openvino",
@@ -546,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10814
+   "stars": 10816
   },
   {
    "name": "openvino_notebooks",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 81784
+   "stars": 81810
   },
   {
    "name": "Restormer",
@@ -591,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 35631
+   "stars": 35647
   },
   {
    "name": "NAFNet",
@@ -609,7 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 145926
+   "stars": 145942
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-08T04:39:32Z",
+   "updated_at": "2026-09-08T11:22:19Z",
    "fork": false,
    "archived": false,
    "is_profile": false
