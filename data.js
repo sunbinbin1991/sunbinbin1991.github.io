@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-10T11:22:17Z",
+ "generated_at": "2026-09-10T16:26:05Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -348,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 4861
+   "stars": 4934
   },
   {
    "name": "UNet-AF",
@@ -384,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4092
+   "stars": 4093
   },
   {
    "name": "dsh-plugin-radar",
@@ -393,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — 开源可自部署的 DSH 插件生态雷达：自动发现 15900+ 候选、k8s 运行级实测管线；自动索引可用Plugin List",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1460
+   "stars": 1462
   },
   {
    "name": "dshfind",
@@ -420,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 15141
+   "stars": 15176
   },
   {
    "name": "little-book-rl",
@@ -429,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1585
+   "stars": 1586
   },
   {
    "name": "archify",
@@ -438,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 56744
+   "stars": 57075
   },
   {
    "name": "awesome-zhuiju-free",
@@ -447,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8349
+   "stars": 8365
   },
   {
    "name": "deepseek-harness",
@@ -456,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 218521
+   "stars": 218902
   },
   {
    "name": "HD-Loss",
@@ -501,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11641
+   "stars": 11642
   },
   {
    "name": "FasterNet",
@@ -519,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16832
+   "stars": 16834
   },
   {
    "name": "agents-course",
@@ -528,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32389
+   "stars": 32402
   },
   {
    "name": "pytorch",
@@ -537,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 102900
+   "stars": 102910
   },
   {
    "name": "openvino",
@@ -546,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10824
+   "stars": 10826
   },
   {
    "name": "openvino_notebooks",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 81956
+   "stars": 81975
   },
   {
    "name": "Restormer",
@@ -582,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "[CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA  for motion deblurring, image deraining, denoising (Gaussian/real data), and defocus deblurring.",
    "html_url": "https://github.com/swz30/Restormer",
    "language": "Python",
-   "stars": 2637
+   "stars": 2640
   },
   {
    "name": "sglang",
@@ -591,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
    "html_url": "https://github.com/sgl-project/sglang",
    "language": "Python",
-   "stars": 35745
+   "stars": 35758
   },
   {
    "name": "NAFNet",
@@ -609,7 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "The agent engineering platform.",
    "html_url": "https://github.com/langchain-ai/langchain",
    "language": "Python",
-   "stars": 146055
+   "stars": 146074
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-10T04:45:28Z",
+   "updated_at": "2026-09-10T11:22:26Z",
    "fork": false,
    "archived": false,
    "is_profile": false
