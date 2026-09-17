@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-17T11:44:43Z",
+ "generated_at": "2026-09-17T17:01:07Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -348,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 273
+   "stars": 275
   },
   {
    "name": "WeSmartFlow",
@@ -357,7 +357,7 @@ window.PORTFOLIO_DATA = {
    "description": "Every question can open a new path. WeSmartFlow turns learning into conversation, exploration, stories, and hands-on discovery.",
    "html_url": "https://github.com/Tencent/WeSmartFlow",
    "language": "Python",
-   "stars": 1034
+   "stars": 1043
   },
   {
    "name": "stylegan3",
@@ -384,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 7141
+   "stars": 7190
   },
   {
    "name": "UNet-AF",
@@ -429,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1471
+   "stars": 1470
   },
   {
    "name": "dshfind",
@@ -456,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 16028
+   "stars": 16051
   },
   {
    "name": "little-book-rl",
@@ -465,7 +465,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1599
+   "stars": 1600
   },
   {
    "name": "archify",
@@ -474,7 +474,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 65478
+   "stars": 65697
   },
   {
    "name": "awesome-zhuiju-free",
@@ -483,7 +483,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8873
+   "stars": 8924
   },
   {
    "name": "deepseek-harness",
@@ -492,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 227449
+   "stars": 227752
   },
   {
    "name": "HD-Loss",
@@ -537,7 +537,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11660
+   "stars": 11661
   },
   {
    "name": "FasterNet",
@@ -546,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "[CVPR 2023] Code for PConv and FasterNet",
    "html_url": "https://github.com/JierunChen/FasterNet",
    "language": "Python",
-   "stars": 837
+   "stars": 838
   },
   {
    "name": "Qwen3-Coder",
@@ -555,7 +555,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16842
+   "stars": 16841
   },
   {
    "name": "agents-course",
@@ -564,7 +564,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32613
+   "stars": 32623
   },
   {
    "name": "pytorch",
@@ -573,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103064
+   "stars": 103072
   },
   {
    "name": "openvino",
@@ -609,7 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
    "html_url": "https://github.com/Egonex-AI/Understand-Anything",
    "language": "TypeScript",
-   "stars": 83122
+   "stars": 83139
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-17T04:55:22Z",
+   "updated_at": "2026-09-17T11:44:49Z",
    "fork": false,
    "archived": false,
    "is_profile": false
