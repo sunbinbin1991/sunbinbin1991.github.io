@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-18T04:46:12Z",
+ "generated_at": "2026-09-18T11:17:49Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -129,6 +129,20 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "WatchEvent",
+   "repo": "hmichaeli/alias_free_convnets",
+   "repo_url": "https://github.com/hmichaeli/alias_free_convnets",
+   "created_at": "2026-09-18T09:00:02Z",
+   "text": "Star 了 hmichaeli/alias_free_convnets"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "raymondyeh07/learnable_polyphase_sampling",
+   "repo_url": "https://github.com/raymondyeh07/learnable_polyphase_sampling",
+   "created_at": "2026-09-18T07:52:57Z",
+   "text": "Star 了 raymondyeh07/learnable_polyphase_sampling"
+  },
   {
    "type": "WatchEvent",
    "repo": "deepinv/deepinv",
@@ -324,23 +338,27 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/QwenLM/Qwen3.8",
    "created_at": "2026-08-21T09:22:44Z",
    "text": "Star 了 QwenLM/Qwen3.8"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T09:04:35Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T09:04:09Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
   }
  ],
  "starred": [
+  {
+   "name": "alias_free_convnets",
+   "owner": "hmichaeli",
+   "full_name": "hmichaeli/alias_free_convnets",
+   "description": "",
+   "html_url": "https://github.com/hmichaeli/alias_free_convnets",
+   "language": "Python",
+   "stars": 22
+  },
+  {
+   "name": "learnable_polyphase_sampling",
+   "owner": "raymondyeh07",
+   "full_name": "raymondyeh07/learnable_polyphase_sampling",
+   "description": "[NeurIPS 2022] Learnable Polyphase Sampling for Shift Invariant and Equivariant Convolutional Networks",
+   "html_url": "https://github.com/raymondyeh07/learnable_polyphase_sampling",
+   "language": "Python",
+   "stars": 14
+  },
   {
    "name": "deepinv",
    "owner": "deepinv",
@@ -357,7 +375,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 278
+   "stars": 279
   },
   {
    "name": "WeSmartFlow",
@@ -366,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "Every question can open a new path. WeSmartFlow turns learning into conversation, exploration, stories, and hands-on discovery.",
    "html_url": "https://github.com/Tencent/WeSmartFlow",
    "language": "Python",
-   "stars": 1046
+   "stars": 1050
   },
   {
    "name": "stylegan3",
@@ -393,7 +411,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 7278
+   "stars": 7385
   },
   {
    "name": "UNet-AF",
@@ -429,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4127
+   "stars": 4131
   },
   {
    "name": "dsh-plugin-radar",
@@ -465,7 +483,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 16085
+   "stars": 16136
   },
   {
    "name": "little-book-rl",
@@ -474,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1601
+   "stars": 1602
   },
   {
    "name": "archify",
@@ -483,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 66067
+   "stars": 66390
   },
   {
    "name": "awesome-zhuiju-free",
@@ -492,7 +510,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8797
+   "stars": 8845
   },
   {
    "name": "deepseek-harness",
@@ -501,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 228229
+   "stars": 228704
   },
   {
    "name": "HD-Loss",
@@ -528,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "Official code for \"Boundary loss for highly unbalanced segmentation\", runner-up for best paper award at MIDL 2019. Extended version in MedIA, volume 67, January 2021.",
    "html_url": "https://github.com/LIVIAETS/boundary-loss",
    "language": "Python",
-   "stars": 732
+   "stars": 733
   },
   {
    "name": "DiffOPC",
@@ -546,7 +564,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11663
+   "stars": 11665
   },
   {
    "name": "FasterNet",
@@ -564,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16839
+   "stars": 16840
   },
   {
    "name": "agents-course",
@@ -573,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32643
+   "stars": 32655
   },
   {
    "name": "pytorch",
@@ -582,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103076
+   "stars": 103082
   },
   {
    "name": "openvino",
@@ -591,25 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10866
-  },
-  {
-   "name": "openvino_notebooks",
-   "owner": "openvinotoolkit",
-   "full_name": "openvinotoolkit/openvino_notebooks",
-   "description": "📚 Jupyter notebook tutorials for OpenVINO™",
-   "html_url": "https://github.com/openvinotoolkit/openvino_notebooks",
-   "language": "Jupyter Notebook",
-   "stars": 3220
-  },
-  {
-   "name": "UNeXt-pytorch",
-   "owner": "jeya-maria-jose",
-   "full_name": "jeya-maria-jose/UNeXt-pytorch",
-   "description": "Official Pytorch Code base for \"UNeXt: MLP-based Rapid Medical Image Segmentation Network\", MICCAI 2022",
-   "html_url": "https://github.com/jeya-maria-jose/UNeXt-pytorch",
-   "language": "Python",
-   "stars": 571
+   "stars": 10867
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-17T21:24:24Z",
+   "updated_at": "2026-09-18T04:46:17Z",
    "fork": false,
    "archived": false,
    "is_profile": false
