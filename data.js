@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-17T21:24:17Z",
+ "generated_at": "2026-09-18T04:46:12Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -8,7 +8,7 @@ window.PORTFOLIO_DATA = {
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
   "followers": 38,
-  "following": 208,
+  "following": 209,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
   "joined_year": 2015,
@@ -129,6 +129,27 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "WatchEvent",
+   "repo": "deepinv/deepinv",
+   "repo_url": "https://github.com/deepinv/deepinv",
+   "created_at": "2026-09-18T02:47:26Z",
+   "text": "Star 了 deepinv/deepinv"
+  },
+  {
+   "type": "IssuesEvent",
+   "repo": "jscanvic/UNet-AF",
+   "repo_url": "https://github.com/jscanvic/UNet-AF",
+   "created_at": "2026-09-18T02:43:28Z",
+   "text": "opened 了 Issue: jscanvic/UNet-AF"
+  },
+  {
+   "type": "IssuesEvent",
+   "repo": "Tencent/WeSmartFlow",
+   "repo_url": "https://github.com/Tencent/WeSmartFlow",
+   "created_at": "2026-09-18T02:00:52Z",
+   "text": "opened 了 Issue: Tencent/WeSmartFlow"
+  },
   {
    "type": "WatchEvent",
    "repo": "rust-alert/ra2.exe",
@@ -317,30 +338,18 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
    "created_at": "2026-08-21T09:04:09Z",
    "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T09:04:47Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T09:04:23Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
-  },
-  {
-   "type": "PushEvent",
-   "repo": "sunbinbin1991/sunbinbin1991.github.io",
-   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
-   "created_at": "2026-08-21T08:44:07Z",
-   "text": "推送了代码到 sunbinbin1991/sunbinbin1991.github.io @ main"
   }
  ],
  "starred": [
+  {
+   "name": "deepinv",
+   "owner": "deepinv",
+   "full_name": "deepinv/deepinv",
+   "description": "DeepInverse: a PyTorch library for solving imaging inverse problems using deep learning",
+   "html_url": "https://github.com/deepinv/deepinv",
+   "language": "Python",
+   "stars": 813
+  },
   {
    "name": "ra2.exe",
    "owner": "rust-alert",
@@ -348,7 +357,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 275
+   "stars": 278
   },
   {
    "name": "WeSmartFlow",
@@ -357,7 +366,7 @@ window.PORTFOLIO_DATA = {
    "description": "Every question can open a new path. WeSmartFlow turns learning into conversation, exploration, stories, and hands-on discovery.",
    "html_url": "https://github.com/Tencent/WeSmartFlow",
    "language": "Python",
-   "stars": 1043
+   "stars": 1046
   },
   {
    "name": "stylegan3",
@@ -384,7 +393,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 7206
+   "stars": 7278
   },
   {
    "name": "UNet-AF",
@@ -420,7 +429,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4125
+   "stars": 4127
   },
   {
    "name": "dsh-plugin-radar",
@@ -429,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1470
+   "stars": 1469
   },
   {
    "name": "dshfind",
@@ -438,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "JavaScript",
-   "stars": 261
+   "stars": 262
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -456,7 +465,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 16055
+   "stars": 16085
   },
   {
    "name": "little-book-rl",
@@ -465,7 +474,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1600
+   "stars": 1601
   },
   {
    "name": "archify",
@@ -474,7 +483,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 65755
+   "stars": 66067
   },
   {
    "name": "awesome-zhuiju-free",
@@ -483,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8752
+   "stars": 8797
   },
   {
    "name": "deepseek-harness",
@@ -492,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 227853
+   "stars": 228229
   },
   {
    "name": "HD-Loss",
@@ -537,7 +546,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11662
+   "stars": 11663
   },
   {
    "name": "FasterNet",
@@ -555,7 +564,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16841
+   "stars": 16839
   },
   {
    "name": "agents-course",
@@ -564,7 +573,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32626
+   "stars": 32643
   },
   {
    "name": "pytorch",
@@ -573,7 +582,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103073
+   "stars": 103076
   },
   {
    "name": "openvino",
@@ -582,7 +591,7 @@ window.PORTFOLIO_DATA = {
    "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
    "html_url": "https://github.com/openvinotoolkit/openvino",
    "language": "C++",
-   "stars": 10864
+   "stars": 10866
   },
   {
    "name": "openvino_notebooks",
@@ -601,15 +610,6 @@ window.PORTFOLIO_DATA = {
    "html_url": "https://github.com/jeya-maria-jose/UNeXt-pytorch",
    "language": "Python",
    "stars": 571
-  },
-  {
-   "name": "Understand-Anything",
-   "owner": "Egonex-AI",
-   "full_name": "Egonex-AI/Understand-Anything",
-   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-   "html_url": "https://github.com/Egonex-AI/Understand-Anything",
-   "language": "TypeScript",
-   "stars": 83153
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-17T17:01:14Z",
+   "updated_at": "2026-09-17T21:24:24Z",
    "fork": false,
    "archived": false,
    "is_profile": false
