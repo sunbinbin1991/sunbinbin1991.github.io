@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-19T20:42:49Z",
+ "generated_at": "2026-09-20T04:55:46Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -129,6 +129,13 @@ window.PORTFOLIO_DATA = {
   ]
  },
  "events": [
+  {
+   "type": "WatchEvent",
+   "repo": "chuspeeism/dashi-ppt-skill",
+   "repo_url": "https://github.com/chuspeeism/dashi-ppt-skill",
+   "created_at": "2026-09-20T02:53:37Z",
+   "text": "Star 了 chuspeeism/dashi-ppt-skill"
+  },
   {
    "type": "WatchEvent",
    "repo": "hmichaeli/alias_free_convnets",
@@ -331,16 +338,18 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/xugaopeng1/awesome-python-login-model",
    "created_at": "2026-08-21T09:36:53Z",
    "text": "Star 了 xugaopeng1/awesome-python-login-model"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "QwenLM/Qwen3.8",
-   "repo_url": "https://github.com/QwenLM/Qwen3.8",
-   "created_at": "2026-08-21T09:22:44Z",
-   "text": "Star 了 QwenLM/Qwen3.8"
   }
  ],
  "starred": [
+  {
+   "name": "dashi-ppt-skill",
+   "owner": "chuspeeism",
+   "full_name": "chuspeeism/dashi-ppt-skill",
+   "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+   "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
+   "language": "JavaScript",
+   "stars": 8485
+  },
   {
    "name": "alias_free_convnets",
    "owner": "hmichaeli",
@@ -375,7 +384,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 279
+   "stars": 280
   },
   {
    "name": "WeSmartFlow",
@@ -411,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 7664
+   "stars": 7754
   },
   {
    "name": "UNet-AF",
@@ -447,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4141
+   "stars": 4143
   },
   {
    "name": "dsh-plugin-radar",
@@ -456,7 +465,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1465
+   "stars": 1464
   },
   {
    "name": "dshfind",
@@ -465,7 +474,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "JavaScript",
-   "stars": 263
+   "stars": 264
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -483,7 +492,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 16285
+   "stars": 16309
   },
   {
    "name": "little-book-rl",
@@ -492,7 +501,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1604
+   "stars": 1607
   },
   {
    "name": "archify",
@@ -501,7 +510,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 67372
+   "stars": 67633
   },
   {
    "name": "awesome-zhuiju-free",
@@ -510,7 +519,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 8946
+   "stars": 8955
   },
   {
    "name": "deepseek-harness",
@@ -519,7 +528,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 229971
+   "stars": 230322
   },
   {
    "name": "HD-Loss",
@@ -591,7 +600,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32679
+   "stars": 32683
   },
   {
    "name": "pytorch",
@@ -600,16 +609,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103107
-  },
-  {
-   "name": "openvino",
-   "owner": "openvinotoolkit",
-   "full_name": "openvinotoolkit/openvino",
-   "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
-   "html_url": "https://github.com/openvinotoolkit/openvino",
-   "language": "C++",
-   "stars": 10874
+   "stars": 103113
   }
  ],
  "repos": [
@@ -632,7 +632,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-19T15:54:09Z",
+   "updated_at": "2026-09-19T20:42:54Z",
    "fork": false,
    "archived": false,
    "is_profile": false
