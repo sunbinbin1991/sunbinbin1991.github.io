@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-20T20:50:57Z",
+ "generated_at": "2026-09-21T04:58:28Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -229,7 +229,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 8523
+   "stars": 8542
   },
   {
    "name": "alias_free_convnets",
@@ -265,7 +265,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 283
+   "stars": 284
   },
   {
    "name": "WeSmartFlow",
@@ -301,7 +301,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 7999
+   "stars": 8078
   },
   {
    "name": "UNet-AF",
@@ -337,7 +337,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4145
+   "stars": 4148
   },
   {
    "name": "dsh-plugin-radar",
@@ -373,7 +373,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "Python",
-   "stars": 16395
+   "stars": 16435
   },
   {
    "name": "little-book-rl",
@@ -382,7 +382,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1608
+   "stars": 1609
   },
   {
    "name": "archify",
@@ -391,7 +391,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 68184
+   "stars": 68444
   },
   {
    "name": "awesome-zhuiju-free",
@@ -400,7 +400,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 9040
+   "stars": 9105
   },
   {
    "name": "deepseek-harness",
@@ -409,7 +409,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 231131
+   "stars": 231472
   },
   {
    "name": "HD-Loss",
@@ -445,7 +445,7 @@ window.PORTFOLIO_DATA = {
    "description": "Differentiable Edge-Based OPC",
    "html_url": "https://github.com/NVlabs/DiffOPC",
    "language": "Python",
-   "stars": 9
+   "stars": 10
   },
   {
    "name": "Pytorch-UNet",
@@ -454,7 +454,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11668
+   "stars": 11669
   },
   {
    "name": "FasterNet",
@@ -481,7 +481,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32706
+   "stars": 32711
   },
   {
    "name": "pytorch",
@@ -490,7 +490,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103132
+   "stars": 103137
   }
  ],
  "repos": [
@@ -513,7 +513,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-20T16:08:56Z",
+   "updated_at": "2026-09-20T20:51:02Z",
    "fork": false,
    "archived": false,
    "is_profile": false
