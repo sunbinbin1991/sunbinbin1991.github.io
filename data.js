@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-24T21:32:20Z",
+ "generated_at": "2026-09-25T04:59:45Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -229,7 +229,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 8727
+   "stars": 8733
   },
   {
    "name": "alias_free_convnets",
@@ -301,7 +301,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 9093
+   "stars": 9233
   },
   {
    "name": "UNet-AF",
@@ -373,7 +373,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 16823
+   "stars": 16842
   },
   {
    "name": "little-book-rl",
@@ -391,7 +391,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 71185
+   "stars": 71313
   },
   {
    "name": "awesome-zhuiju-free",
@@ -400,7 +400,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 10201
+   "stars": 10215
   },
   {
    "name": "deepseek-harness",
@@ -409,7 +409,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 235104
+   "stars": 235349
   },
   {
    "name": "HD-Loss",
@@ -436,7 +436,7 @@ window.PORTFOLIO_DATA = {
    "description": "Official code for \"Boundary loss for highly unbalanced segmentation\", runner-up for best paper award at MIDL 2019. Extended version in MedIA, volume 67, January 2021.",
    "html_url": "https://github.com/LIVIAETS/boundary-loss",
    "language": "Python",
-   "stars": 734
+   "stars": 735
   },
   {
    "name": "DiffOPC",
@@ -481,7 +481,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32850
+   "stars": 32851
   },
   {
    "name": "pytorch",
@@ -490,7 +490,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103260
+   "stars": 103274
   }
  ],
  "repos": [
@@ -513,7 +513,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-24T17:13:16Z",
+   "updated_at": "2026-09-24T21:32:26Z",
    "fork": false,
    "archived": false,
    "is_profile": false
