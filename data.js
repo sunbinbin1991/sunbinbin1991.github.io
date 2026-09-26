@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-26T16:25:23Z",
+ "generated_at": "2026-09-26T21:12:10Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -198,20 +198,6 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/mikuhatsune/equivariance",
    "created_at": "2026-09-14T06:56:32Z",
    "text": "Star 了 mikuhatsune/equivariance"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "dataelement/dsh-desktop",
-   "repo_url": "https://github.com/dataelement/dsh-desktop",
-   "created_at": "2026-08-27T11:54:53Z",
-   "text": "Star 了 dataelement/dsh-desktop"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "jscanvic/UNet-AF",
-   "repo_url": "https://github.com/jscanvic/UNet-AF",
-   "created_at": "2026-08-27T10:47:02Z",
-   "text": "Star 了 jscanvic/UNet-AF"
   }
  ],
  "starred": [
@@ -222,7 +208,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 8826
+   "stars": 8831
   },
   {
    "name": "alias_free_convnets",
@@ -294,7 +280,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 9589
+   "stars": 9605
   },
   {
    "name": "UNet-AF",
@@ -330,7 +316,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4178
+   "stars": 4180
   },
   {
    "name": "dsh-plugin-radar",
@@ -366,7 +352,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 16973
+   "stars": 16981
   },
   {
    "name": "little-book-rl",
@@ -384,7 +370,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 72116
+   "stars": 72217
   },
   {
    "name": "awesome-zhuiju-free",
@@ -393,7 +379,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 10347
+   "stars": 10353
   },
   {
    "name": "deepseek-harness",
@@ -402,7 +388,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 236713
+   "stars": 236800
   },
   {
    "name": "HD-Loss",
@@ -474,7 +460,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32902
+   "stars": 32907
   },
   {
    "name": "pytorch",
@@ -483,7 +469,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103358
+   "stars": 103368
   }
  ],
  "repos": [
@@ -506,7 +492,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-26T11:27:23Z",
+   "updated_at": "2026-09-26T16:25:27Z",
    "fork": false,
    "archived": false,
    "is_profile": false
