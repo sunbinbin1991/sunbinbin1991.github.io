@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-09-28T05:26:42Z",
+ "generated_at": "2026-09-28T13:58:48Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -7,7 +7,7 @@ window.PORTFOLIO_DATA = {
   "company": "",
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
-  "followers": 38,
+  "followers": 37,
   "following": 209,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
@@ -208,7 +208,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 8902
+   "stars": 8929
   },
   {
    "name": "alias_free_convnets",
@@ -235,7 +235,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInverse: a PyTorch library for solving imaging inverse problems using deep learning",
    "html_url": "https://github.com/deepinv/deepinv",
    "language": "Python",
-   "stars": 820
+   "stars": 821
   },
   {
    "name": "ra2.exe",
@@ -244,7 +244,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 295
+   "stars": 296
   },
   {
    "name": "WeSmartFlow",
@@ -280,7 +280,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 10066
+   "stars": 10278
   },
   {
    "name": "UNet-AF",
@@ -316,7 +316,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4189
+   "stars": 4194
   },
   {
    "name": "dsh-plugin-radar",
@@ -352,7 +352,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 17085
+   "stars": 17136
   },
   {
    "name": "little-book-rl",
@@ -361,7 +361,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1653
+   "stars": 1656
   },
   {
    "name": "archify",
@@ -370,7 +370,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 72963
+   "stars": 73277
   },
   {
    "name": "awesome-zhuiju-free",
@@ -379,7 +379,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 10478
+   "stars": 10506
   },
   {
    "name": "deepseek-harness",
@@ -388,7 +388,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 237987
+   "stars": 238509
   },
   {
    "name": "HD-Loss",
@@ -460,7 +460,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 32950
+   "stars": 32966
   },
   {
    "name": "pytorch",
@@ -469,7 +469,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103430
+   "stars": 103451
   }
  ],
  "repos": [
@@ -492,7 +492,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-09-27T21:22:38Z",
+   "updated_at": "2026-09-28T05:26:48Z",
    "fork": false,
    "archived": false,
    "is_profile": false
