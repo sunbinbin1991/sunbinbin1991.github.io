@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-03T21:18:12Z",
+ "generated_at": "2026-10-04T05:56:18Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -208,7 +208,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9110
+   "stars": 9126
   },
   {
    "name": "alias_free_convnets",
@@ -262,7 +262,7 @@ window.PORTFOLIO_DATA = {
    "description": "Official PyTorch implementation of StyleGAN3",
    "html_url": "https://github.com/NVlabs/stylegan3",
    "language": "Python",
-   "stars": 6949
+   "stars": 6948
   },
   {
    "name": "equivariance",
@@ -280,7 +280,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 11764
+   "stars": 11801
   },
   {
    "name": "UNet-AF",
@@ -316,7 +316,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4223
+   "stars": 4225
   },
   {
    "name": "dsh-plugin-radar",
@@ -325,7 +325,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1467
+   "stars": 1466
   },
   {
    "name": "dshfind",
@@ -352,7 +352,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 17682
+   "stars": 17699
   },
   {
    "name": "little-book-rl",
@@ -361,7 +361,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1666
+   "stars": 1668
   },
   {
    "name": "archify",
@@ -370,7 +370,7 @@ window.PORTFOLIO_DATA = {
    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 76715
+   "stars": 76829
   },
   {
    "name": "awesome-zhuiju-free",
@@ -379,7 +379,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma2053/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 10957
+   "stars": 11044
   },
   {
    "name": "deepseek-harness",
@@ -388,7 +388,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 242864
+   "stars": 243013
   },
   {
    "name": "HD-Loss",
@@ -460,7 +460,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 33158
+   "stars": 33167
   },
   {
    "name": "pytorch",
@@ -469,7 +469,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103672
+   "stars": 103708
   }
  ],
  "repos": [
@@ -492,7 +492,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-03T16:19:25Z",
+   "updated_at": "2026-10-03T21:18:17Z",
    "fork": false,
    "archived": false,
    "is_profile": false
