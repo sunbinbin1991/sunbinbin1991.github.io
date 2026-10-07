@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-07T13:27:09Z",
+ "generated_at": "2026-10-07T23:06:38Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -208,7 +208,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9216
+   "stars": 9224
   },
   {
    "name": "alias_free_convnets",
@@ -244,7 +244,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 301
+   "stars": 302
   },
   {
    "name": "WeSmartFlow",
@@ -280,7 +280,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 12171
+   "stars": 12183
   },
   {
    "name": "UNet-AF",
@@ -316,7 +316,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4239
+   "stars": 4240
   },
   {
    "name": "dsh-plugin-radar",
@@ -352,7 +352,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 17992
+   "stars": 18010
   },
   {
    "name": "little-book-rl",
@@ -370,7 +370,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 79003
+   "stars": 79196
   },
   {
    "name": "awesome-zhuiju-free",
@@ -379,7 +379,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 11395
+   "stars": 11422
   },
   {
    "name": "deepseek-harness",
@@ -388,7 +388,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 244986
+   "stars": 245157
   },
   {
    "name": "HD-Loss",
@@ -451,7 +451,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.",
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
-   "stars": 16837
+   "stars": 16838
   },
   {
    "name": "agents-course",
@@ -460,7 +460,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 33267
+   "stars": 33277
   },
   {
    "name": "pytorch",
@@ -469,7 +469,7 @@ window.PORTFOLIO_DATA = {
    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
    "html_url": "https://github.com/pytorch/pytorch",
    "language": "Python",
-   "stars": 103829
+   "stars": 103858
   }
  ],
  "repos": [
@@ -492,7 +492,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-07T06:03:03Z",
+   "updated_at": "2026-10-07T13:27:15Z",
    "fork": false,
    "archived": false,
    "is_profile": false
