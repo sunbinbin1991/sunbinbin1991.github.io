@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-10T05:55:04Z",
+ "generated_at": "2026-10-10T12:34:53Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -131,6 +131,27 @@ window.PORTFOLIO_DATA = {
  "events": [
   {
    "type": "WatchEvent",
+   "repo": "cdyforever/how-to-live-better",
+   "repo_url": "https://github.com/cdyforever/how-to-live-better",
+   "created_at": "2026-10-10T09:19:04Z",
+   "text": "Star 了 cdyforever/how-to-live-better"
+  },
+  {
+   "type": "IssuesEvent",
+   "repo": "Tencent/WeSmartFlow",
+   "repo_url": "https://github.com/Tencent/WeSmartFlow",
+   "created_at": "2026-10-10T09:12:22Z",
+   "text": "closed 了 Issue: Tencent/WeSmartFlow"
+  },
+  {
+   "type": "WatchEvent",
+   "repo": "yunyu-x/yunyu-esp32",
+   "repo_url": "https://github.com/yunyu-x/yunyu-esp32",
+   "created_at": "2026-10-10T09:04:44Z",
+   "text": "Star 了 yunyu-x/yunyu-esp32"
+  },
+  {
+   "type": "WatchEvent",
    "repo": "chuspeeism/dashi-ppt-skill",
    "repo_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "created_at": "2026-09-20T02:53:37Z",
@@ -202,13 +223,22 @@ window.PORTFOLIO_DATA = {
  ],
  "starred": [
   {
+   "name": "how-to-live-better",
+   "owner": "cdyforever",
+   "full_name": "cdyforever/how-to-live-better",
+   "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+   "html_url": "https://github.com/cdyforever/how-to-live-better",
+   "language": "HTML",
+   "stars": 10839
+  },
+  {
    "name": "dashi-ppt-skill",
    "owner": "chuspeeism",
    "full_name": "chuspeeism/dashi-ppt-skill",
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9312
+   "stars": 9333
   },
   {
    "name": "alias_free_convnets",
@@ -244,7 +274,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 304
+   "stars": 305
   },
   {
    "name": "WeSmartFlow",
@@ -280,7 +310,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 12749
+   "stars": 12901
   },
   {
    "name": "UNet-AF",
@@ -334,7 +364,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 302
+   "stars": 303
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -352,7 +382,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 18246
+   "stars": 18286
   },
   {
    "name": "little-book-rl",
@@ -370,7 +400,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 81334
+   "stars": 81509
   },
   {
    "name": "awesome-zhuiju-free",
@@ -379,7 +409,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 11613
+   "stars": 11643
   },
   {
    "name": "deepseek-harness",
@@ -388,7 +418,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 246541
+   "stars": 246763
   },
   {
    "name": "HD-Loss",
@@ -406,7 +436,7 @@ window.PORTFOLIO_DATA = {
    "description": "[IEEE TMI Best Paper Award] Official Implementation for UNet++",
    "html_url": "https://github.com/MrGiovanni/UNetPlusPlus",
    "language": "Python",
-   "stars": 2689
+   "stars": 2690
   },
   {
    "name": "boundary-loss",
@@ -433,7 +463,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11697
+   "stars": 11700
   },
   {
    "name": "FasterNet",
@@ -460,16 +490,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 33365
-  },
-  {
-   "name": "pytorch",
-   "owner": "pytorch",
-   "full_name": "pytorch/pytorch",
-   "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-   "html_url": "https://github.com/pytorch/pytorch",
-   "language": "Python",
-   "stars": 104012
+   "stars": 33375
   }
  ],
  "repos": [
@@ -492,7 +513,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-09T22:40:17Z",
+   "updated_at": "2026-10-10T05:55:09Z",
    "fork": false,
    "archived": false,
    "is_profile": false
