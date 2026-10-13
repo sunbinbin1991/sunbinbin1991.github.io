@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-13T14:14:31Z",
+ "generated_at": "2026-10-13T22:46:29Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -229,7 +229,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 11589
+   "stars": 11630
   },
   {
    "name": "dashi-ppt-skill",
@@ -238,7 +238,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9458
+   "stars": 9473
   },
   {
    "name": "alias_free_convnets",
@@ -265,7 +265,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInverse: a PyTorch library for solving imaging inverse problems using deep learning",
    "html_url": "https://github.com/deepinv/deepinv",
    "language": "Python",
-   "stars": 831
+   "stars": 833
   },
   {
    "name": "ra2.exe",
@@ -310,7 +310,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 13661
+   "stars": 13675
   },
   {
    "name": "UNet-AF",
@@ -346,7 +346,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4271
+   "stars": 4273
   },
   {
    "name": "dsh-plugin-radar",
@@ -382,7 +382,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 18621
+   "stars": 18638
   },
   {
    "name": "little-book-rl",
@@ -391,7 +391,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1689
+   "stars": 1690
   },
   {
    "name": "archify",
@@ -400,7 +400,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 82895
+   "stars": 83020
   },
   {
    "name": "awesome-zhuiju-free",
@@ -409,7 +409,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 11894
+   "stars": 11904
   },
   {
    "name": "deepseek-harness",
@@ -418,7 +418,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 248805
+   "stars": 248948
   },
   {
    "name": "HD-Loss",
@@ -490,7 +490,7 @@ window.PORTFOLIO_DATA = {
    "description": "This repository contains the Hugging Face Agents Course.",
    "html_url": "https://github.com/huggingface/agents-course",
    "language": "MDX",
-   "stars": 33547
+   "stars": 33558
   }
  ],
  "repos": [
@@ -513,7 +513,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-13T00:42:38Z",
+   "updated_at": "2026-10-13T14:14:36Z",
    "fork": false,
    "archived": false,
    "is_profile": false
