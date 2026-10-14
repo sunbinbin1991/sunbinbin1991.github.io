@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-13T22:46:29Z",
+ "generated_at": "2026-10-14T04:56:07Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -131,6 +131,13 @@ window.PORTFOLIO_DATA = {
  "events": [
   {
    "type": "WatchEvent",
+   "repo": "88lin/workbuddy-auto-signin",
+   "repo_url": "https://github.com/88lin/workbuddy-auto-signin",
+   "created_at": "2026-10-14T01:34:26Z",
+   "text": "Star 了 88lin/workbuddy-auto-signin"
+  },
+  {
+   "type": "WatchEvent",
    "repo": "cdyforever/how-to-live-better",
    "repo_url": "https://github.com/cdyforever/how-to-live-better",
    "created_at": "2026-10-10T09:19:04Z",
@@ -223,13 +230,22 @@ window.PORTFOLIO_DATA = {
  ],
  "starred": [
   {
+   "name": "workbuddy-auto-signin",
+   "owner": "88lin",
+   "full_name": "88lin/workbuddy-auto-signin",
+   "description": "自动领取 WorkBuddy 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
+   "html_url": "https://github.com/88lin/workbuddy-auto-signin",
+   "language": "Python",
+   "stars": 1216
+  },
+  {
    "name": "how-to-live-better",
    "owner": "cdyforever",
    "full_name": "cdyforever/how-to-live-better",
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 11630
+   "stars": 11687
   },
   {
    "name": "dashi-ppt-skill",
@@ -238,7 +254,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9473
+   "stars": 9490
   },
   {
    "name": "alias_free_convnets",
@@ -310,7 +326,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "TypeScript",
-   "stars": 13675
+   "stars": 13694
   },
   {
    "name": "UNet-AF",
@@ -346,7 +362,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4273
+   "stars": 4276
   },
   {
    "name": "dsh-plugin-radar",
@@ -364,7 +380,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 305
+   "stars": 306
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -382,7 +398,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 18638
+   "stars": 18666
   },
   {
    "name": "little-book-rl",
@@ -400,7 +416,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 83020
+   "stars": 83153
   },
   {
    "name": "awesome-zhuiju-free",
@@ -409,7 +425,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 11904
+   "stars": 11913
   },
   {
    "name": "deepseek-harness",
@@ -418,7 +434,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 248948
+   "stars": 249136
   },
   {
    "name": "HD-Loss",
@@ -463,7 +479,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11706
+   "stars": 11707
   },
   {
    "name": "FasterNet",
@@ -482,15 +498,6 @@ window.PORTFOLIO_DATA = {
    "html_url": "https://github.com/QwenLM/Qwen3-Coder",
    "language": "Python",
    "stars": 16836
-  },
-  {
-   "name": "agents-course",
-   "owner": "huggingface",
-   "full_name": "huggingface/agents-course",
-   "description": "This repository contains the Hugging Face Agents Course.",
-   "html_url": "https://github.com/huggingface/agents-course",
-   "language": "MDX",
-   "stars": 33558
   }
  ],
  "repos": [
@@ -513,7 +520,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-13T14:14:36Z",
+   "updated_at": "2026-10-13T22:46:35Z",
    "fork": false,
    "archived": false,
    "is_profile": false
