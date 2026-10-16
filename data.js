@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-16T11:27:08Z",
+ "generated_at": "2026-10-16T16:41:11Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -236,7 +236,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 282289
+   "stars": 286657
   },
   {
    "name": "i-have-adhd",
@@ -245,7 +245,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 57373
+   "stars": 57404
   },
   {
    "name": "workbuddy-auto-signin",
@@ -254,7 +254,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 1308
+   "stars": 1319
   },
   {
    "name": "how-to-live-better",
@@ -263,7 +263,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 12176
+   "stars": 12224
   },
   {
    "name": "dashi-ppt-skill",
@@ -272,7 +272,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9592
+   "stars": 9598
   },
   {
    "name": "alias_free_convnets",
@@ -317,7 +317,7 @@ window.PORTFOLIO_DATA = {
    "description": "Every question can open a new path. WeSmartFlow turns learning into conversation, exploration, stories, and hands-on discovery.",
    "html_url": "https://github.com/Tencent/WeSmartFlow",
    "language": "Python",
-   "stars": 1059
+   "stars": 1060
   },
   {
    "name": "stylegan3",
@@ -344,7 +344,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 14523
+   "stars": 14551
   },
   {
    "name": "UNet-AF",
@@ -380,7 +380,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4284
+   "stars": 4285
   },
   {
    "name": "dsh-plugin-radar",
@@ -389,7 +389,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1474
+   "stars": 1475
   },
   {
    "name": "dshfind",
@@ -398,7 +398,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 308
+   "stars": 309
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -416,7 +416,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 18969
+   "stars": 18998
   },
   {
    "name": "little-book-rl",
@@ -434,7 +434,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 84281
+   "stars": 84390
   },
   {
    "name": "awesome-zhuiju-free",
@@ -443,7 +443,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 12354
+   "stars": 12378
   },
   {
    "name": "deepseek-harness",
@@ -452,7 +452,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 250907
+   "stars": 251064
   },
   {
    "name": "HD-Loss",
@@ -497,7 +497,7 @@ window.PORTFOLIO_DATA = {
    "description": "PyTorch implementation of the U-Net for image semantic segmentation with high quality images",
    "html_url": "https://github.com/milesial/Pytorch-UNet",
    "language": "Python",
-   "stars": 11711
+   "stars": 11712
   }
  ],
  "repos": [
@@ -520,7 +520,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-16T04:34:29Z",
+   "updated_at": "2026-10-16T11:27:14Z",
    "fork": false,
    "archived": false,
    "is_profile": false
