@@ -74,6 +74,12 @@ GitHub Pages · GitHub Actions · GitHub REST API · Vanilla JavaScript · Pytho
 
 [MIT](LICENSE) © 2026 sunbinbin1991
 
+## 🤝 参与贡献
+
+欢迎提PR 和issue！完整流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，
+提交前建议先跑一遍 CI 检查（`python -m py_compile _data/build.py` +
+本地打开 `index.html` 点一次「刷新数据」）。
+
 ---
 
 ## 中文说明
