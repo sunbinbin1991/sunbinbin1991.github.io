@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-20T04:53:13Z",
+ "generated_at": "2026-10-20T11:40:26Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -130,6 +130,20 @@ window.PORTFOLIO_DATA = {
  },
  "events": [
   {
+   "type": "WatchEvent",
+   "repo": "deepseek-ai/DeepInfer",
+   "repo_url": "https://github.com/deepseek-ai/DeepInfer",
+   "created_at": "2026-10-20T10:00:16Z",
+   "text": "Star 了 deepseek-ai/DeepInfer"
+  },
+  {
+   "type": "PushEvent",
+   "repo": "sunbinbin1991/sunbinbin1991.github.io",
+   "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
+   "created_at": "2026-10-20T05:31:54Z",
+   "text": "推送 1 个提交到 sunbinbin1991/sunbinbin1991.github.io @ main"
+  },
+  {
    "type": "PullRequestEvent",
    "repo": "sunbinbin1991/sunbinbin1991.github.io",
    "repo_url": "https://github.com/sunbinbin1991/sunbinbin1991.github.io",
@@ -198,16 +212,18 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/yunyu-x/yunyu-esp32",
    "created_at": "2026-10-10T09:04:44Z",
    "text": "Star 了 yunyu-x/yunyu-esp32"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "chuspeeism/dashi-ppt-skill",
-   "repo_url": "https://github.com/chuspeeism/dashi-ppt-skill",
-   "created_at": "2026-09-20T02:53:37Z",
-   "text": "Star 了 chuspeeism/dashi-ppt-skill"
   }
  ],
  "starred": [
+  {
+   "name": "DeepInfer",
+   "owner": "deepseek-ai",
+   "full_name": "deepseek-ai/DeepInfer",
+   "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+   "html_url": "https://github.com/deepseek-ai/DeepInfer",
+   "language": "Python",
+   "stars": 5671
+  },
   {
    "name": "harness2",
    "owner": "google-research",
@@ -215,7 +231,7 @@ window.PORTFOLIO_DATA = {
    "description": "",
    "html_url": "https://github.com/google-research/harness2",
    "language": "Python",
-   "stars": 12569
+   "stars": 13638
   },
   {
    "name": "rea",
@@ -224,7 +240,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 338868
+   "stars": 342726
   },
   {
    "name": "i-have-adhd",
@@ -233,7 +249,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 57878
+   "stars": 57934
   },
   {
    "name": "workbuddy-auto-signin",
@@ -242,7 +258,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 1445
+   "stars": 1468
   },
   {
    "name": "how-to-live-better",
@@ -251,7 +267,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 12742
+   "stars": 12813
   },
   {
    "name": "dashi-ppt-skill",
@@ -260,7 +276,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9708
+   "stars": 9729
   },
   {
    "name": "alias_free_convnets",
@@ -296,7 +312,7 @@ window.PORTFOLIO_DATA = {
    "description": "使用 Rust 对《红色警戒 2》进行了现代化重写，现已支持高分辨率，窗口化，跨平台等特性，且额外支持《尤里的复仇》、《心灵终结》等 DLC。",
    "html_url": "https://github.com/rust-alert/ra2.exe",
    "language": "Rust",
-   "stars": 317
+   "stars": 318
   },
   {
    "name": "WeSmartFlow",
@@ -314,7 +330,7 @@ window.PORTFOLIO_DATA = {
    "description": "Official PyTorch implementation of StyleGAN3",
    "html_url": "https://github.com/NVlabs/stylegan3",
    "language": "Python",
-   "stars": 6946
+   "stars": 6947
   },
   {
    "name": "equivariance",
@@ -332,7 +348,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 15673
+   "stars": 15838
   },
   {
    "name": "UNet-AF",
@@ -386,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "TypeScript",
-   "stars": 310
+   "stars": 312
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -404,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 19583
+   "stars": 19652
   },
   {
    "name": "little-book-rl",
@@ -422,7 +438,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 85942
+   "stars": 86098
   },
   {
    "name": "awesome-zhuiju-free",
@@ -431,7 +447,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 12696
+   "stars": 12735
   },
   {
    "name": "deepseek-harness",
@@ -440,7 +456,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 254719
+   "stars": 255243
   },
   {
    "name": "HD-Loss",
@@ -468,15 +484,6 @@ window.PORTFOLIO_DATA = {
    "html_url": "https://github.com/LIVIAETS/boundary-loss",
    "language": "Python",
    "stars": 736
-  },
-  {
-   "name": "DiffOPC",
-   "owner": "NVlabs",
-   "full_name": "NVlabs/DiffOPC",
-   "description": "Differentiable Edge-Based OPC",
-   "html_url": "https://github.com/NVlabs/DiffOPC",
-   "language": "Python",
-   "stars": 11
   }
  ],
  "repos": [
@@ -499,7 +506,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-20T03:06:21Z",
+   "updated_at": "2026-10-20T05:31:57Z",
    "fork": false,
    "archived": false,
    "is_profile": false
