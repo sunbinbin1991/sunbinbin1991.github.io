@@ -1,0 +1,47 @@
+name: Bug 反馈
+description: 报告一个页面或构建流程的问题
+labels: ["bug", "需要复现"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 描述你看到的现象
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望的结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 https://sunbinbin1991.github.io/
+        2. 点击「刷新数据」
+        3. 看到……
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: 环境
+      placeholder: 浏览器 + 系统 + 是否本地打开 index.html
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 补充信息
+      options:
+        - label: 我确认过 `data.js` 是最新的（Pages 会滞后几分钟）
+          required: false
+        - label: 我在控制台（F12）看到了报错，可以附上
+          required: false

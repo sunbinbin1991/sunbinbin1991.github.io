@@ -17,8 +17,9 @@ Generate a personal GitHub portfolio site from any username — auto-refreshing,
 
 ---
 
-<!-- 截图占位：把网站首页截图保存为 docs/screenshot.png 后，取消下面这行的注释即可显示 -->
-<!-- ![screenshot](docs/screenshot.png) -->
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="portfolio site screenshot" width="820">
+</p>
 
 ## ✨ Features
 
@@ -72,6 +73,17 @@ GitHub Pages · GitHub Actions · GitHub REST API · Vanilla JavaScript · Pytho
 ## 📄 License
 
 [MIT](LICENSE) © 2026 sunbinbin1991
+
+## 🤝 参与贡献
+
+欢迎提PR 和issue！完整流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，
+提交前建议先跑一遍 CI 检查（`python -m py_compile _data/build.py` +
+本地打开 `index.html` 点一次「刷新数据」）。
+
+## 📊 关于这个仓库的维护
+
+维护者文档见 [docs/ACHIEVEMENTS.md](docs/ACHIEVEMENTS.md)
+—— 记录了工程实测状态与 GitHub 成就的达成路径。
 
 ---
 
