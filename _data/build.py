@@ -150,10 +150,31 @@ def clean_repo(r):
     }
 
 
+def fetch_starred():
+    """最近 Star 的项目（按 Star 时间倒序，取 30 条）。"""
+    try:
+        return get(f"/users/{LOGIN}/starred?per_page=30&sort=created&direction=desc")
+    except Exception:
+        return []
+
+
+def clean_starred(r):
+    return {
+        "name": r["name"],
+        "owner": (r.get("owner") or {}).get("login", ""),
+        "full_name": r["full_name"],
+        "description": (r.get("description") or "").strip(),
+        "html_url": r["html_url"],
+        "language": r.get("language") or "",
+        "stars": r["stargazers_count"],
+    }
+
+
 def main():
     user = fetch_user()
     repos = fetch_repos()
     events = fetch_events()
+    starred = [clean_starred(r) for r in fetch_starred()]
 
     cleaned = [clean_repo(r) for r in repos]
     originals = [r for r in cleaned if not r["fork"]]
@@ -186,6 +207,7 @@ def main():
             "top_original": sorted(originals, key=lambda r: -r["stars"])[:6],
         },
         "events": events,
+        "starred": starred,
         "repos": cleaned,
     }
 
@@ -194,7 +216,7 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=1)
         f.write(";\n")
 
-    print(f"data.js written: {len(cleaned)} repos, {len(events)} events")
+    print(f"data.js written: {len(cleaned)} repos, {len(events)} events, {len(starred)} starred")
     print("generated_at:", data["generated_at"])
     return 0
 
