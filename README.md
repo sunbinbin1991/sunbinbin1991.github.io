@@ -80,11 +80,6 @@ GitHub Pages · GitHub Actions · GitHub REST API · Vanilla JavaScript · Pytho
 提交前建议先跑一遍 CI 检查（`python -m py_compile _data/build.py` +
 本地打开 `index.html` 点一次「刷新数据」）。
 
-## 📊 关于这个仓库的维护
-
-维护者文档见 [docs/ACHIEVEMENTS.md](docs/ACHIEVEMENTS.md)
-—— 记录了工程实测状态与 GitHub 成就的达成路径。
-
 ---
 
 ## 中文说明
