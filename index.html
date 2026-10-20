@@ -576,6 +576,11 @@
     document.getElementById("empty").style.display = list.length ? "none" : "block";
   }
 
+  function renderTotal() {
+    document.getElementById("totalLabel").textContent =
+      "共 " + D.repos.length + " 个公开仓库，点击卡片进入仓库页面";
+  }
+
   function renderAll() {
     renderHero();
     renderStats();
@@ -583,6 +588,7 @@
     renderActivity();
     renderLangChips();
     renderRepos();
+    renderTotal();
   }
 
   // ---------- live data ----------
@@ -597,6 +603,25 @@
         if (!r.ok) throw new Error("HTTP " + r.status);
         return r.json();
       });
+  }
+
+  // 逐页拉取全部仓库。GitHub API 单页上限 100，只取第一页会静默丢掉
+  // 之后的仓库，导致累计 stars / 仓库总数明显偏低。
+  // MAX_REPO_PAGES 兜底防止异常情况下无限翻页（配合匿名 60 次/小时配额）。
+  var MAX_REPO_PAGES = 5; // 最多 500 个仓库，覆盖绝大多数个人主页需求
+
+  function fetchAllRepos(base) {
+    var out = [];
+    function page(n) {
+      return fetchJSON(base + "?per_page=100&page=" + n)
+        .then(function (batch) {
+          if (!batch || !batch.length) return out;
+          out = out.concat(batch);
+          if (batch.length < 100 || n >= MAX_REPO_PAGES) return out;
+          return page(n + 1);
+        });
+    }
+    return page(1);
   }
 
   function cleanRepos(raw) {
@@ -687,7 +712,7 @@
     var base = "https://api.github.com/users/" + U.login;
     Promise.all([
       fetchJSON(base),
-      fetchJSON(base + "/repos?per_page=100&sort=updated&type=all"),
+      fetchAllRepos(base + "/repos?sort=updated&type=all"),
       fetchJSON(base + "/events/public?per_page=30")
     ]).then(function (res) {
       applyLive({ user: res[0], repos: res[1], events: res[2] }, false);
@@ -719,7 +744,6 @@
 
   // ---------- boot ----------
   document.getElementById("genDate").textContent = D.generated_at ? D.generated_at.slice(0, 16).replace("T", " ") : "—";
-  document.getElementById("totalLabel").textContent = "共 " + D.repos.length + " 个公开仓库，点击卡片进入仓库页面";
 
   document.getElementById("langChips").addEventListener("click", function (e) {
     var chip = e.target.closest(".chip");

@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 注意：data.js 是构建产物，但**需要提交**（Pages 直接引用它），
+# 所以这里刻意不忽略它。

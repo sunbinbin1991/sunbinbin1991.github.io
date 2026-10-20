@@ -17,8 +17,9 @@ Generate a personal GitHub portfolio site from any username — auto-refreshing,
 
 ---
 
-<!-- 截图占位：把网站首页截图保存为 docs/screenshot.png 后，取消下面这行的注释即可显示 -->
-<!-- ![screenshot](docs/screenshot.png) -->
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="portfolio site screenshot" width="820">
+</p>
 
 ## ✨ Features
 

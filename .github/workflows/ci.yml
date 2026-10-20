@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: build.py 语法检查
+        run: python -m py_compile _data/build.py
+
+      - name: 校验构建脚本可正常产出数据
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          python _data/build.py
+          test -s data.js || { echo "::error::data.js 生成失败或为空"; exit 1; }
+
+      - name: 校验 data.js 结构完整
+        run: |
+          python - <<'PY'
+          import json, re, sys
+          raw = open("data.js", encoding="utf-8").read()
+          m = re.match(r"^window\.PORTFOLIO_DATA = (.*);\s*$", raw, re.S)
+          if not m:
+              sys.exit("::error::data.js 格式不符合 window.PORTFOLIO_DATA = ...;")
+          d = json.loads(m.group(1))
+          for k in ("generated_at", "user", "stats", "events", "repos"):
+              if k not in d:
+                  sys.exit(f"::error::data.js 缺少字段 {k}")
+          if not d["repos"]:
+              sys.exit("::error::data.js 中 repos 为空")
+          print(f"OK: {len(d['repos'])} repos, {len(d['events'])} events")
+          PY
+
+      - name: 还原自动生成文件
+        # build.py 会在 CI 里改写 data.js，不能让 CI 提交这个副作用
+        run: git checkout -- data.js
+
+      - name: index.html 基本结构检查
+        run: |
+          python - <<'PY'
+          import sys
+          html = open("index.html", encoding="utf-8").read()
+          for tag in ("<html", "</html>", "id=\"repoGrid\"", "id=\"totalLabel\""):
+              if tag not in html:
+                  sys.exit(f"::error::index.html 缺少 {tag}")
+          print("OK: index.html 结构完整")
+          PY
