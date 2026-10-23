@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-22T21:37:45Z",
+ "generated_at": "2026-10-23T04:52:45Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -250,7 +250,7 @@ window.PORTFOLIO_DATA = {
    "description": "Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe",
    "html_url": "https://github.com/apirrone/Open_Duck_Mini",
    "language": "Python",
-   "stars": 4368
+   "stars": 4377
   },
   {
    "name": "miniduck",
@@ -268,7 +268,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
    "html_url": "https://github.com/deepseek-ai/DeepInfer",
    "language": "Python",
-   "stars": 19801
+   "stars": 20154
   },
   {
    "name": "harness2",
@@ -277,7 +277,7 @@ window.PORTFOLIO_DATA = {
    "description": "",
    "html_url": "https://github.com/google-research/harness2",
    "language": "Python",
-   "stars": 17948
+   "stars": 18110
   },
   {
    "name": "rea",
@@ -286,7 +286,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 365606
+   "stars": 367534
   },
   {
    "name": "i-have-adhd",
@@ -295,7 +295,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 58324
+   "stars": 58354
   },
   {
    "name": "workbuddy-auto-signin",
@@ -304,7 +304,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 1539
+   "stars": 1551
   },
   {
    "name": "how-to-live-better",
@@ -313,7 +313,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 13058
+   "stars": 13083
   },
   {
    "name": "dashi-ppt-skill",
@@ -322,7 +322,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 9837
+   "stars": 9849
   },
   {
    "name": "alias_free_convnets",
@@ -394,7 +394,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 16189
+   "stars": 16312
   },
   {
    "name": "UNet-AF",
@@ -430,7 +430,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4312
+   "stars": 4313
   },
   {
    "name": "dsh-plugin-radar",
@@ -439,7 +439,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1483
+   "stars": 1484
   },
   {
    "name": "dshfind",
@@ -466,7 +466,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 20138
+   "stars": 20205
   },
   {
    "name": "little-book-rl",
@@ -484,7 +484,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 87574
+   "stars": 87829
   },
   {
    "name": "awesome-zhuiju-free",
@@ -493,7 +493,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 13079
+   "stars": 13167
   },
   {
    "name": "deepseek-harness",
@@ -502,7 +502,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepSeek Harness: Everything is a Plugin.",
    "html_url": "https://github.com/deepseek-ai/deepseek-harness",
    "language": "TypeScript",
-   "stars": 258122
+   "stars": 258443
   },
   {
    "name": "HD-Loss",
@@ -534,7 +534,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-22T11:55:46Z",
+   "updated_at": "2026-10-22T21:37:51Z",
    "fork": false,
    "archived": false,
    "is_profile": false
