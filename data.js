@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-10-27T05:08:38Z",
+ "generated_at": "2026-10-27T12:15:07Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -131,6 +131,13 @@ window.PORTFOLIO_DATA = {
  "events": [
   {
    "type": "WatchEvent",
+   "repo": "huggingface/smolagents",
+   "repo_url": "https://github.com/huggingface/smolagents",
+   "created_at": "2026-10-27T06:54:08Z",
+   "text": "Star 了 huggingface/smolagents"
+  },
+  {
+   "type": "WatchEvent",
    "repo": "handsomestWei/patent-disclosure-skill",
    "repo_url": "https://github.com/handsomestWei/patent-disclosure-skill",
    "created_at": "2026-10-24T14:50:44Z",
@@ -251,13 +258,22 @@ window.PORTFOLIO_DATA = {
  ],
  "starred": [
   {
+   "name": "smolagents",
+   "owner": "huggingface",
+   "full_name": "huggingface/smolagents",
+   "description": "🤗 smolagents: a barebones library for agents that think in code.",
+   "html_url": "https://github.com/huggingface/smolagents",
+   "language": "Python",
+   "stars": 30091
+  },
+  {
    "name": "patent-disclosure-skill",
    "owner": "handsomestWei",
    "full_name": "handsomestWei/patent-disclosure-skill",
    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
    "html_url": "https://github.com/handsomestWei/patent-disclosure-skill",
    "language": "Python",
-   "stars": 12329
+   "stars": 12366
   },
   {
    "name": "Open_Duck_Mini",
@@ -266,7 +282,7 @@ window.PORTFOLIO_DATA = {
    "description": "Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe",
    "html_url": "https://github.com/apirrone/Open_Duck_Mini",
    "language": "Python",
-   "stars": 4526
+   "stars": 4535
   },
   {
    "name": "miniduck",
@@ -284,7 +300,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
    "html_url": "https://github.com/deepseek-ai/DeepInfer",
    "language": "Python",
-   "stars": 23121
+   "stars": 23281
   },
   {
    "name": "harness2",
@@ -293,7 +309,7 @@ window.PORTFOLIO_DATA = {
    "description": "",
    "html_url": "https://github.com/google-research/harness2",
    "language": "Python",
-   "stars": 20230
+   "stars": 20363
   },
   {
    "name": "rea",
@@ -302,7 +318,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 392783
+   "stars": 394739
   },
   {
    "name": "i-have-adhd",
@@ -311,7 +327,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 58909
+   "stars": 58976
   },
   {
    "name": "workbuddy-auto-signin",
@@ -320,7 +336,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 1661
+   "stars": 1674
   },
   {
    "name": "how-to-live-better",
@@ -329,7 +345,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 13526
+   "stars": 13564
   },
   {
    "name": "dashi-ppt-skill",
@@ -338,7 +354,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 10064
+   "stars": 10082
   },
   {
    "name": "alias_free_convnets",
@@ -410,7 +426,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 17058
+   "stars": 17108
   },
   {
    "name": "UNet-AF",
@@ -455,7 +471,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1485
+   "stars": 1486
   },
   {
    "name": "dshfind",
@@ -482,7 +498,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 20957
+   "stars": 21057
   },
   {
    "name": "little-book-rl",
@@ -491,7 +507,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1725
+   "stars": 1727
   },
   {
    "name": "archify",
@@ -500,7 +516,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 89948
+   "stars": 90175
   },
   {
    "name": "awesome-zhuiju-free",
@@ -509,16 +525,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 13693
-  },
-  {
-   "name": "deepseek-harness",
-   "owner": "deepseek-ai",
-   "full_name": "deepseek-ai/deepseek-harness",
-   "description": "DeepSeek Harness: Everything is a Plugin.",
-   "html_url": "https://github.com/deepseek-ai/deepseek-harness",
-   "language": "TypeScript",
-   "stars": 262848
+   "stars": 13732
   }
  ],
  "repos": [
@@ -541,7 +548,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-10-26T22:41:26Z",
+   "updated_at": "2026-10-27T05:08:43Z",
    "fork": false,
    "archived": false,
    "is_profile": false
