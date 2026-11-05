@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-11-04T19:46:43Z",
+ "generated_at": "2026-11-05T06:49:59Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -8,7 +8,7 @@ window.PORTFOLIO_DATA = {
   "location": "Hangzhou,China,Mars",
   "blog": "https://sunbinbin1991.github.io/ ",
   "followers": 37,
-  "following": 209,
+  "following": 210,
   "public_repos": 66,
   "created_at": "2015-10-27T12:38:05Z",
   "joined_year": 2015,
@@ -264,7 +264,7 @@ window.PORTFOLIO_DATA = {
    "description": "🤗 smolagents: a barebones library for agents that think in code.",
    "html_url": "https://github.com/huggingface/smolagents",
    "language": "Python",
-   "stars": 30213
+   "stars": 30218
   },
   {
    "name": "patent-disclosure-skill",
@@ -273,7 +273,7 @@ window.PORTFOLIO_DATA = {
    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
    "html_url": "https://github.com/handsomestWei/patent-disclosure-skill",
    "language": "Python",
-   "stars": 12896
+   "stars": 12925
   },
   {
    "name": "Open_Duck_Mini",
@@ -282,7 +282,7 @@ window.PORTFOLIO_DATA = {
    "description": "Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe",
    "html_url": "https://github.com/apirrone/Open_Duck_Mini",
    "language": "Python",
-   "stars": 4639
+   "stars": 4642
   },
   {
    "name": "miniduck",
@@ -300,7 +300,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
    "html_url": "https://github.com/deepseek-ai/DeepInfer",
    "language": "Python",
-   "stars": 25374
+   "stars": 25411
   },
   {
    "name": "harness2",
@@ -309,7 +309,7 @@ window.PORTFOLIO_DATA = {
    "description": "",
    "html_url": "https://github.com/google-research/harness2",
    "language": "Python",
-   "stars": 22638
+   "stars": 22716
   },
   {
    "name": "rea",
@@ -318,7 +318,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 430318
+   "stars": 431902
   },
   {
    "name": "i-have-adhd",
@@ -327,7 +327,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 60060
+   "stars": 60115
   },
   {
    "name": "workbuddy-auto-signin",
@@ -336,7 +336,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 1968
+   "stars": 1983
   },
   {
    "name": "how-to-live-better",
@@ -345,7 +345,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 14199
+   "stars": 14217
   },
   {
    "name": "dashi-ppt-skill",
@@ -354,7 +354,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 10363
+   "stars": 10380
   },
   {
    "name": "alias_free_convnets",
@@ -399,7 +399,7 @@ window.PORTFOLIO_DATA = {
    "description": "Every question can open a new path. WeSmartFlow turns learning into conversation, exploration, stories, and hands-on discovery.",
    "html_url": "https://github.com/Tencent/WeSmartFlow",
    "language": "Python",
-   "stars": 1062
+   "stars": 1063
   },
   {
    "name": "stylegan3",
@@ -426,7 +426,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 17271
+   "stars": 17297
   },
   {
    "name": "UNet-AF",
@@ -462,7 +462,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4383
+   "stars": 4386
   },
   {
    "name": "dsh-plugin-radar",
@@ -471,7 +471,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH Plugin Radar — open-source ecosystem radar for DeepSeek Harness plugins: continuous discovery (21k+ candidates), k8s runtime validation (13k+ tests), 15-min snapshots; the catalog is a generated artifact — 开源 DSH 插件生态雷达：持续发现 2.1 万+ 候选、k8s 运行级实测 1.3 万+、15 分钟快照；插件目录为自动生成的产物",
    "html_url": "https://github.com/AdamPlatin123/dsh-plugin-radar",
    "language": "Python",
-   "stars": 1493
+   "stars": 1495
   },
   {
    "name": "dshfind",
@@ -480,7 +480,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSH (DeepSeek Harness) 原理学习、插件市场与最佳实践 · Learn DSH principles, plugin marketplace & best practices",
    "html_url": "https://github.com/hikariming/dshfind",
    "language": "JavaScript",
-   "stars": 361
+   "stars": 363
   },
   {
    "name": "sunbinbin1991.github.io",
@@ -498,7 +498,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 22398
+   "stars": 22446
   },
   {
    "name": "little-book-rl",
@@ -516,7 +516,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 93417
+   "stars": 93588
   },
   {
    "name": "awesome-zhuiju-free",
@@ -525,7 +525,7 @@ window.PORTFOLIO_DATA = {
    "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
    "html_url": "https://github.com/laoma528/awesome-zhuiju-free",
    "language": "JavaScript",
-   "stars": 14666
+   "stars": 14685
   }
  ],
  "repos": [
@@ -548,7 +548,7 @@ window.PORTFOLIO_DATA = {
     "static-site"
    ],
    "created_at": "2026-08-19T09:12:37Z",
-   "updated_at": "2026-11-04T06:26:05Z",
+   "updated_at": "2026-11-04T19:46:50Z",
    "fork": false,
    "archived": false,
    "is_profile": false
