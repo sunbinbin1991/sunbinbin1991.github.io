@@ -1,5 +1,5 @@
 window.PORTFOLIO_DATA = {
- "generated_at": "2026-11-21T07:11:30Z",
+ "generated_at": "2026-11-21T19:17:52Z",
  "user": {
   "login": "sunbinbin1991",
   "name": "Binbin sun",
@@ -149,20 +149,6 @@ window.PORTFOLIO_DATA = {
    "repo_url": "https://github.com/handsomestWei/patent-disclosure-skill",
    "created_at": "2026-10-24T14:50:44Z",
    "text": "Star 了 handsomestWei/patent-disclosure-skill"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "apirrone/Open_Duck_Mini",
-   "repo_url": "https://github.com/apirrone/Open_Duck_Mini",
-   "created_at": "2026-10-22T06:08:16Z",
-   "text": "Star 了 apirrone/Open_Duck_Mini"
-  },
-  {
-   "type": "WatchEvent",
-   "repo": "evilbinary/miniduck",
-   "repo_url": "https://github.com/evilbinary/miniduck",
-   "created_at": "2026-10-22T06:05:07Z",
-   "text": "Star 了 evilbinary/miniduck"
   }
  ],
  "starred": [
@@ -173,7 +159,7 @@ window.PORTFOLIO_DATA = {
    "description": "Production-grade engineering skills for AI coding agents.",
    "html_url": "https://github.com/addyosmani/agent-skills",
    "language": "JavaScript",
-   "stars": 119438
+   "stars": 119549
   },
   {
    "name": "smolagents",
@@ -182,7 +168,7 @@ window.PORTFOLIO_DATA = {
    "description": "🤗 smolagents: a barebones library for agents that think in code.",
    "html_url": "https://github.com/huggingface/smolagents",
    "language": "Python",
-   "stars": 30464
+   "stars": 30469
   },
   {
    "name": "patent-disclosure-skill",
@@ -191,7 +177,7 @@ window.PORTFOLIO_DATA = {
    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
    "html_url": "https://github.com/handsomestWei/patent-disclosure-skill",
    "language": "Python",
-   "stars": 13702
+   "stars": 13714
   },
   {
    "name": "Open_Duck_Mini",
@@ -200,7 +186,7 @@ window.PORTFOLIO_DATA = {
    "description": "Making a mini version of the BDX droid. https://discord.gg/UtJZsgfQGe",
    "html_url": "https://github.com/apirrone/Open_Duck_Mini",
    "language": "Python",
-   "stars": 4763
+   "stars": 4766
   },
   {
    "name": "miniduck",
@@ -218,7 +204,7 @@ window.PORTFOLIO_DATA = {
    "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
    "html_url": "https://github.com/deepseek-ai/DeepInfer",
    "language": "Python",
-   "stars": 26272
+   "stars": 26292
   },
   {
    "name": "harness2",
@@ -227,7 +213,7 @@ window.PORTFOLIO_DATA = {
    "description": "",
    "html_url": "https://github.com/google-research/harness2",
    "language": "Python",
-   "stars": 24606
+   "stars": 24660
   },
   {
    "name": "rea",
@@ -236,7 +222,7 @@ window.PORTFOLIO_DATA = {
    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
    "html_url": "https://github.com/morluto/rea",
    "language": "TypeScript",
-   "stars": 471817
+   "stars": 472581
   },
   {
    "name": "i-have-adhd",
@@ -245,7 +231,7 @@ window.PORTFOLIO_DATA = {
    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
    "html_url": "https://github.com/ayghri/i-have-adhd",
    "language": "Python",
-   "stars": 61836
+   "stars": 61883
   },
   {
    "name": "workbuddy-auto-signin",
@@ -254,7 +240,7 @@ window.PORTFOLIO_DATA = {
    "description": "自动领取 WorkBuddy / Qoder CN 每日签到积分与成长中心全部奖励 —— Buddy 旅行礼物、派 Buddy、开盲盒、领任务、连登兑换、断登补签全覆盖。无需额外安装依赖，一句话让 AI 自动配好 Windows / macOS 定时任务，零 Token 静默运行。",
    "html_url": "https://github.com/88lin/workbuddy-auto-signin",
    "language": "Python",
-   "stars": 2598
+   "stars": 2607
   },
   {
    "name": "how-to-live-better",
@@ -263,7 +249,7 @@ window.PORTFOLIO_DATA = {
    "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
    "html_url": "https://github.com/cdyforever/how-to-live-better",
    "language": "HTML",
-   "stars": 14970
+   "stars": 14987
   },
   {
    "name": "dashi-ppt-skill",
@@ -272,7 +258,7 @@ window.PORTFOLIO_DATA = {
    "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
    "html_url": "https://github.com/chuspeeism/dashi-ppt-skill",
    "language": "JavaScript",
-   "stars": 10899
+   "stars": 10915
   },
   {
    "name": "alias_free_convnets",
@@ -344,7 +330,7 @@ window.PORTFOLIO_DATA = {
    "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
    "html_url": "https://github.com/dataelement/dsh-desktop",
    "language": "JavaScript",
-   "stars": 20340
+   "stars": 20489
   },
   {
    "name": "UNet-AF",
@@ -380,7 +366,7 @@ window.PORTFOLIO_DATA = {
    "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
    "html_url": "https://github.com/QwenLM/Qwen3.8",
    "language": "",
-   "stars": 4459
+   "stars": 4462
   },
   {
    "name": "dsh-plugin-radar",
@@ -416,7 +402,7 @@ window.PORTFOLIO_DATA = {
    "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
    "html_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
    "language": "JavaScript",
-   "stars": 25297
+   "stars": 25337
   },
   {
    "name": "little-book-rl",
@@ -425,7 +411,7 @@ window.PORTFOLIO_DATA = {
    "description": "The Little Book of Reinforcement Learning",
    "html_url": "https://github.com/alxndrTL/little-book-rl",
    "language": "Python",
-   "stars": 1749
+   "stars": 1750
   },
   {
    "name": "archify",
@@ -434,7 +420,7 @@ window.PORTFOLIO_DATA = {
    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
    "html_url": "https://github.com/tt-a1i/archify",
    "language": "JavaScript",
-   "stars": 98406
+   "stars": 98547
   }
  ],
  "repos": [
